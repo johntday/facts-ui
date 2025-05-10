@@ -115,7 +115,7 @@ export default function ClaimDetail() {
           />
 
           {/* Usage Metrics */}
-          <UsageMetrics usage={verificationData.usage} />
+          {/*<UsageMetrics usage={verificationData.usage} />*/}
 
           {/* Claim Analysis */}
           {verificationData.claim_detail.map((claim, index) => (

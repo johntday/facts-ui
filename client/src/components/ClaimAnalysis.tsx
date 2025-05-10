@@ -32,7 +32,7 @@ export default function ClaimAnalysis({ claim, claimNumber }: ClaimAnalysisProps
       >
         <div className="flex items-center justify-between">
           <h3 className="text-lg font-medium leading-6 text-card-foreground">
-            Claim #{claimNumber}: {claim.claim}
+            CLAIM #{claimNumber}: {claim.claim}
           </h3>
           <div className="ml-2 flex-shrink-0 flex items-center">
             <FactualityBadge factuality={claim.factuality} />
@@ -50,10 +50,13 @@ export default function ClaimAnalysis({ claim, claimNumber }: ClaimAnalysisProps
             <div className="sm:flex sm:justify-between">
               <div className="mb-4 sm:mb-0">
                 <h4 className="text-sm font-medium text-muted-foreground">Checkworthiness</h4>
+                {/*<p className="mt-1 text-sm text-card-foreground">*/}
+                {/*  {claim.checkworthy */}
+                {/*    ? `Yes (${claim.checkworthy_reason})` */}
+                {/*    : `No (${claim.checkworthy_reason})`}*/}
+                {/*</p>*/}
                 <p className="mt-1 text-sm text-card-foreground">
-                  {claim.checkworthy 
-                    ? `Yes (${claim.checkworthy_reason})` 
-                    : `No (${claim.checkworthy_reason})`}
+                    {claim.checkworthy_reason}
                 </p>
               </div>
               <div className="sm:ml-6 sm:w-40">
@@ -79,21 +82,21 @@ export default function ClaimAnalysis({ claim, claimNumber }: ClaimAnalysisProps
             </div>
           </div>
 
-          {claim.queries && claim.queries.length > 0 && (
-            <div className="border-b border-border bg-muted/50 px-4 py-5 sm:px-6">
-              <h4 className="text-sm font-medium text-muted-foreground mb-2">Generated Queries</h4>
-              <div className="space-y-2">
-                {claim.queries.map((query, index) => (
-                  <div 
-                    key={index} 
-                    className="text-sm text-card-foreground bg-background p-2 rounded border border-border"
-                  >
-                    {query}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
+          {/*{claim.queries && claim.queries.length > 0 && (*/}
+          {/*  <div className="border-b border-border bg-muted/50 px-4 py-5 sm:px-6">*/}
+          {/*    <h4 className="text-sm font-medium text-muted-foreground mb-2">Generated Queries</h4>*/}
+          {/*    <div className="space-y-2">*/}
+          {/*      {claim.queries.map((query, index) => (*/}
+          {/*        <div */}
+          {/*          key={index} */}
+          {/*          className="text-sm text-card-foreground bg-background p-2 rounded border border-border"*/}
+          {/*        >*/}
+          {/*          {query}*/}
+          {/*        </div>*/}
+          {/*      ))}*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*)}*/}
 
           <div className="px-4 py-5 sm:px-6">
             <div className="flex justify-between items-center mb-4">

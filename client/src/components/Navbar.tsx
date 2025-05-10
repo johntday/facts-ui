@@ -25,22 +25,22 @@ export default function Navbar() {
                 } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}>
                 Claims
               </Link>
-              <a href="#" className="border-transparent text-muted-foreground hover:border-muted hover:text-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                Dashboard
-              </a>
-              <a href="#" className="border-transparent text-muted-foreground hover:border-muted hover:text-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                Analytics
-              </a>
+              {/*<a href="#" className="border-transparent text-muted-foreground hover:border-muted hover:text-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">*/}
+              {/*  Dashboard*/}
+              {/*</a>*/}
+              {/*<a href="#" className="border-transparent text-muted-foreground hover:border-muted hover:text-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">*/}
+              {/*  Analytics*/}
+              {/*</a>*/}
             </nav>
           </div>
           <div className="flex items-center gap-2">
             <ThemeToggle />
-            <div className="flex-shrink-0">
-              <Button>
-                <PlusIcon className="h-5 w-5 mr-2" />
-                New Claim
-              </Button>
-            </div>
+            {/*<div className="flex-shrink-0">*/}
+            {/*  <Button>*/}
+            {/*    <PlusIcon className="h-5 w-5 mr-2" />*/}
+            {/*    New Claim*/}
+            {/*  </Button>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
