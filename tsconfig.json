@@ -6,53 +6,28 @@
     "shared/**/*",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules",
-    "build",
-    "dist",
-    "**/*.test.ts"
-  ],
+  "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
   "compilerOptions": {
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
     "noEmit": true,
     "module": "ESNext",
     "strict": true,
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable"
-    ],
+    "lib": ["esnext", "dom", "dom.iterable"],
     "jsx": "preserve",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
     "moduleResolution": "bundler",
     "baseUrl": ".",
-    "types": [
-      "node",
-      "vite/client"
-    ],
+    "types": ["node"],
     "paths": {
-      "@/*": [
-        "./client/src/*",
-        "./app/*"
-      ],
-      "@shared/*": [
-        "./shared/*"
-      ],
-      "@components/*": [
-        "./client/src/components/*"
-      ],
-      "@lib/*": [
-        "./client/src/lib/*"
-      ],
-      "@hooks/*": [
-        "./client/src/hooks/*"
-      ],
-      "@pages/*": [
-        "./client/src/pages/*"
-      ]
+      "@/*": ["./client/src/*", "./app/*"],
+      "@shared/*": ["./shared/*"],
+      "@components/*": ["./client/src/components/*"],
+      "@lib/*": ["./client/src/lib/*"],
+      "@hooks/*": ["./client/src/hooks/*"],
+      "@pages/*": ["./client/src/pages/*"]
     },
     "plugins": [
       {
