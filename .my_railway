@@ -1,5 +1,6 @@
 #https://nixpacks.com/docs/providers/node#spa-application-support
 
-NIXPACKS_SPA_CADDY=false
-PORT=5005
+#NIXPACKS_SPA_CADDY=false
+PORT=3000
 HOSTNAME="0.0.0.0"
+NEXT_PUBLIC_API_URL=""

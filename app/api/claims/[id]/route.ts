@@ -31,12 +31,10 @@ async function getClaimVerificationById(
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    // Access id asynchronously to satisfy Next.js dynamic route parameters requirements
-    const paramsObj = await Promise.resolve(params);
-    const id = paramsObj.id;
+    const { id } = await params;
 
     const idSchema = z.string().min(1);
 
