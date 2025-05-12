@@ -1,5 +1,5 @@
-import { Link } from "wouter";
 import { ClaimVerificationData } from "@/lib/types";
+import Link from "next/link";
 
 interface ClaimCardProps {
   claim: ClaimVerificationData;
@@ -7,23 +7,25 @@ interface ClaimCardProps {
 
 export default function ClaimCard({ claim }: ClaimCardProps) {
   // Calculate average factuality
-  const averageFactuality = claim.claim_detail.reduce(
-    (acc, detail) => acc + detail.factuality, 
-    0
-  ) / claim.claim_detail.length;
+  const averageFactuality =
+    claim.claim_detail.reduce((acc, detail) => acc + detail.factuality, 0) /
+    claim.claim_detail.length;
 
   // Format factuality percentage
   const factualityPercentage = Math.round(averageFactuality * 100);
 
   // Determine status based on factuality
-  let statusClass = "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400";
+  let statusClass =
+    "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400";
   let statusText = "Verified";
 
   if (averageFactuality < 0.7) {
-    statusClass = "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400";
+    statusClass =
+      "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400";
     statusText = "Refuted";
   } else if (averageFactuality < 0.9) {
-    statusClass = "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400";
+    statusClass =
+      "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400";
     statusText = "Partially Verified";
   }
 
@@ -33,13 +35,17 @@ export default function ClaimCard({ claim }: ClaimCardProps) {
         <div className="px-4 py-5 sm:px-6 bg-muted/50">
           <div className="flex items-center justify-between">
             <h3 className="text-lg font-medium leading-6 text-card-foreground truncate">
-              {claim.claim_detail.length > 0 ? claim.claim_detail[0].claim : "Untitled Claim"}
+              {claim.claim_detail.length > 0
+                ? claim.claim_detail[0].claim
+                : "Untitled Claim"}
             </h3>
             <div className="ml-2 flex-shrink-0 flex gap-2">
               <p className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-primary/10 text-primary">
                 Claims {claim.claim_detail.length}
               </p>
-              <p className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${statusClass}`}>
+              <p
+                className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${statusClass}`}
+              >
                 Factuality {factualityPercentage}%
               </p>
             </div>

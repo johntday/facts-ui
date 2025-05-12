@@ -1,0 +1,5 @@
+#https://nixpacks.com/docs/providers/node#spa-application-support
+
+NIXPACKS_SPA_CADDY=false
+PORT=5005
+HOSTNAME="0.0.0.0"
