@@ -1,0 +1,221 @@
+{
+  "raw_text": "This is just the latest in a pattern of this President interfering with and politicizing our independent agencies and their vital functions.\u00a0 \u00a0 This firing is illegal and dangerous.\u00a0  @SenSchumer and I are demanding the President be held to account.",
+  "token_count": 50,
+  "usage": {
+    "decomposer": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 1152,
+      "completion_tokens": 363
+    },
+    "checkworthy": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 415,
+      "completion_tokens": 168
+    },
+    "query_generator": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 1312,
+      "completion_tokens": 86
+    },
+    "evidence_crawler": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+    },
+    "claimverify": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 12613,
+      "completion_tokens": 2003
+    }
+  },
+  "claim_detail": [
+    {
+      "id": 0,
+      "claim": "The President has interfered with independent agencies and their functions.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement makes a specific, factual claim about the President's actions toward independent agencies, which could be assessed via records or reports.)",
+      "origin_text": "This is just the latest in a pattern of this President interfering with and politicizing our independent agencies and their vital functions.",
+      "start": 0,
+      "end": 140,
+      "queries": [
+        "The President has interfered with independent agencies and their functions.",
+        "Has the President interfered with independent agencies?",
+        "Has the President interfered with the functions of independent agencies?"
+      ],
+      "evidences": [
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "If the President can control independent agencies for neglecting their legal duties, it follows that he can supervise independent agen- cies, not to overrule ...",
+          "url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2021/03/Sunstein_Vermeule_Presidential-Review-The-Presidents-Statutory-Authority-over-Independent-Agencies.pdf",
+          "reasoning": "The evidence discusses the President's ability to control or supervise independent agencies, particularly in cases where they neglect their legal duties. This implies that the President can exercise a degree of authority over independent agencies, suggesting some level of involvement in their functions. However, the evidence does not explicitly state that the President has interfered with these agencies, merely that such authority may exist. Thus, it does not directly support or refute the specific claim of interference by the President\u2014it only discusses the potential for oversight.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "Presidents normally do have the authority to remove regular executive agency heads at will, but they must meet the statutory requirements for removal of ...",
+          "url": "https://en.wikipedia.org/wiki/Independent_agencies_of_the_United_States_federal_government",
+          "reasoning": "The evidence explains the President\u2019s general authority regarding the removal of executive agency heads versus independent agency heads but does not specify any actual instances or proof of the President interfering with independent agencies or their functions. It discusses legal constraints but does not comment on actions taken. Thus, it is not directly relevant to whether interference has occurred.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "An executive order that would allow the White House to control independent federal agencies that have traditionally operated outside of its direct supervision ...",
+          "url": "https://worldatwork.org/publications/workspan-daily/trump-order-puts-independent-federal-agencies-under-his-control",
+          "reasoning": "The evidence mentions an executive order that would allow the White House to control independent federal agencies that have traditionally operated outside of its direct supervision. This supports the claim that the President has interfered with independent agencies and their functions by indicating a move towards increased control over them.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "If the President can control independent agencies for neglecting their legal duties, it follows that he can supervise independent agen- cies, not to overrule ...",
+          "url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2021/03/Sunstein_Vermeule_Presidential-Review-The-Presidents-Statutory-Authority-over-Independent-Agencies.pdf",
+          "reasoning": "The evidence discusses the President's ability to control or supervise independent agencies, particularly in cases where they neglect their legal duties. However, it frames this authority as a legal or statutory oversight mechanism, not as an act of interference. The evidence does not provide concrete examples or assert that the President has actually interfered with independent agencies and their functions. Thus, it is not directly relevant to the specific claim of interference.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "Presidents normally do have the authority to remove regular executive agency heads at will, but they must meet the statutory requirements for removal of ...",
+          "url": "https://en.wikipedia.org/wiki/Independent_agencies_of_the_United_States_federal_government",
+          "reasoning": "The evidence explains the President\u2019s general authority regarding the removal of executive agency heads versus independent agency heads but does not specify any actual instances or examples of the President interfering with independent agencies or their functions. It is more about legal powers and statutory requirements rather than evidence for or against interference.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "An executive order that would allow the White House to control independent federal agencies that have traditionally operated outside of its direct supervision ...",
+          "url": "https://worldatwork.org/publications/workspan-daily/trump-order-puts-independent-federal-agencies-under-his-control",
+          "reasoning": "The evidence mentions an executive order that would allow the White House to control independent federal agencies that have traditionally operated outside of its direct supervision. This supports the claim that the President has interfered with independent agencies and their functions by indicating a move towards increased control over them.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "President Trump on Tuesday signed an executive order to give the president greater power over independent regulatory agencies \u2014 government entities Congress set up to be shielded from White House control. Well-known independent regulatory agencies include the Consumer Product Safety Commission, which issues recalls and safety warnings; the Securities and Exchange Commission, which oversees markets; and the Federal Deposit Insurance Corporation, which insures bank deposits. Trump's order specifically exempts the Federal Reserve's Board of Governors and Open Market Committee.  The Federal Reserve, which sets monetary pol ...",
+          "url": "https://www.npr.org/2025/02/19/nx-s1-5302481/trump-independent-agencies",
+          "reasoning": "The evidence states that President Trump signed an executive order to give the president greater power over independent regulatory agencies. These agencies are meant to be shielded from White House control and their examples are given in the evidence. This implies a direct attempt by the President to interfere with the independence and functions of these agencies, which supports the claim.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "The degree to which the President has the power to use executive orders to set policy for independent executive agencies is disputed. Many orders specifically ...",
+          "url": "https://en.wikipedia.org/wiki/Independent_agencies_of_the_United_States_federal_government",
+          "reasoning": "The evidence discusses the debate over the President's power to use executive orders to set policy for independent executive agencies, but it does not provide direct information or examples of the President actually interfering with independent agencies or their functions. It merely observes that the scope of presidential authority is disputed.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "\"Trump's illegal executive order on independent agencies aims to shield corporations from accountability and centralize more power with Trump and his minions,\" said Robert Weissman, a co-president of Public Citizen, a progressive consumer advocacy group, in a news release. Weissman stresses that this order will hurt the work of agencies like the Federal Election Commission, which he said \"is independent of presidential control so that it can serve its election integrity mission without partisan favor.\" And he points to the potential effect on the Federal Trade Commission (FTC) and Securities and Exchange Commission, which are supposed to ...",
+          "url": "https://www.npr.org/sections/planet-money/2025/03/04/g-s1-51515/trump-asserting-extraordinary-power-over-independent-agencies-is-the-fed-next",
+          "reasoning": "The evidence discusses an executive order by President Trump, which is criticized for aiming to centralize more power under the president and potentially interfering with the independence of agencies like the Federal Election Commission, FTC, and SEC. The evidence highlights concerns from an advocacy group that this action would hurt the work of these independent agencies by placing them more under presidential control, which aligns closely with the claim that the President has interfered with independent agencies and their functions.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "30 As a matter of practice, presidents have avoided interfering with the substantive policy choices of independent agencies partly because of concerns about ...",
+          "url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2021/03/Sunstein_Vermeule_Presidential-Review-The-Presidents-Statutory-Authority-over-Independent-Agencies.pdf",
+          "reasoning": "The evidence states that presidents have avoided interfering with the substantive policy choices of independent agencies as a matter of practice. This suggests that such interference typically does not occur. Therefore, the evidence refutes the claim that the President has interfered with independent agencies and their functions.",
+          "relationship": "REFUTES"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "President Trump on Tuesday signed an executive order to give the president greater power over independent regulatory agencies \u2014 government entities Congress set up to be shielded from White House control. Well-known independent regulatory agencies include the Consumer Product Safety Commission, which issues recalls and safety warnings; the Securities and Exchange Commission, which oversees markets; and the Federal Deposit Insurance Corporation, which insures bank deposits. Trump's order specifically exempts the Federal Reserve's Board of Governors and Open Market Committee.  The Federal Reserve, which sets monetary pol ...",
+          "url": "https://www.npr.org/2025/02/19/nx-s1-5302481/trump-independent-agencies",
+          "reasoning": "The evidence states that President Trump signed an executive order to give the president greater power over independent regulatory agencies. These agencies are meant to be shielded from White House control, and the executive order aims to increase presidential authority over them, with certain exceptions like the Federal Reserve. This action constitutes interference with the independence of these agencies and their functions, directly supporting the claim.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "The President has interfered with independent agencies and their functions.",
+          "text": "The degree to which the President has the power to use executive orders to set policy for independent executive agencies is disputed. Many orders specifically ...",
+          "url": "https://en.wikipedia.org/wiki/Independent_agencies_of_the_United_States_federal_government",
+          "reasoning": "The evidence discusses the debate over the President's power to use executive orders to set policy for independent executive agencies, but it does not provide direct information or examples of the President actually interfering with independent agencies or their functions. It merely observes that the scope of presidential authority is disputed.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": 0.8333333333333334
+    },
+    {
+      "id": 1,
+      "claim": "The firing is dangerous.",
+      "checkworthy": false,
+      "checkworthy_reason": "No (This is an opinion or evaluative judgment about the firing and does not present a verifiable factual claim.)",
+      "origin_text": " \u00a0 This firing is illegal and dangerous.",
+      "start": 141,
+      "end": 181,
+      "queries": [],
+      "evidences": [],
+      "factuality": "Nothing to check."
+    },
+    {
+      "id": 2,
+      "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement contains a factual claim about the actions of Senator Schumer and another individual, which can be verified by checking records of statements or demands.)",
+      "origin_text": "  @SenSchumer and I are demanding the President be held to account.",
+      "start": 182,
+      "end": 249,
+      "queries": [
+        "Senator Schumer and another individual are demanding the President be held accountable.",
+        "Is Senator Schumer demanding the President be held accountable?",
+        "Is another individual also demanding the President be held accountable?"
+      ],
+      "evidences": [
+        {
+          "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+          "text": "Leader Schumer Floor Remarks Demanding Accountability And A Thorough Investigation Into Trump Officials For Reckless National Security Breach.",
+          "url": "https://www.democrats.senate.gov/news/press-releases/leader-schumer-floor-remarks-demanding-accountability-and-a-thorough-investigation-into-trump-officials-for-reckless-national-security-breach",
+          "reasoning": "The evidence discusses Senator Schumer's remarks demanding accountability and an investigation into Trump officials for a national security breach. However, it specifies that Schumer is seeking accountability directed at 'Trump officials', not the President per se. The claim states that Senator Schumer and another individual are demanding that the President be held accountable. Since the evidence does not specifically mention any demand for accountability directed at the President, nor does it mention another individual, it does not provide direct support for the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+          "text": "Two Democratic senators are demanding answers from the White House over serious concerns that President Donald Trump's rollbacks on his tariffs ...",
+          "url": "https://www.facebook.com/WorldNewsTonight/posts/two-democratic-senators-are-demanding-answers-from-the-white-house-over-serious-/1190750289385417/",
+          "reasoning": "The evidence states that two Democratic senators are demanding answers from the White House regarding President Trump's tariffs. While it references two senators holding the President accountable by demanding answers, it does not specifically mention Senator Schumer or confirm his involvement. Therefore, the evidence does not directly support or refute the claim about Senator Schumer. It is irrelevant to the specific claim about Schumer's actions.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+          "text": "The No Kings Act would reaffirm that the President is not immune to legal accountability and remove the Supreme Court's jurisdiction to hear appeals.",
+          "url": "https://www.whitehouse.senate.gov/news/release/u-s-senators-introduce-no-kings-act-to-restore-checks-on-presidential-immunity/",
+          "reasoning": "The evidence references U.S. Senators introducing the No Kings Act to affirm that the President is not immune to legal accountability, but it does not specifically mention Senator Schumer or another individual making a demand to hold the President accountable. Without information about Senator Schumer's involvement or a demand being made, the evidence is not directly relevant to the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+          "text": "Is Senator Schumer demanding the President be held accountable?\nAnswer: Brooklyn",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence provides only the answer 'Brooklyn' to the query about whether Senator Schumer is demanding the President be held accountable. This does not address the content of the claim or provide any relevant information about Senator Schumer's actions or statements. Therefore, the evidence is irrelevant to the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+          "text": "Just over 150 years later, another individual ... presidents who engage in criminal wrongdoing can be held accountable after they leave office.",
+          "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/five-key-ways-congress-can-ensure-accountability-during-a-lawless-era/",
+          "reasoning": "The evidence discusses general mechanisms for holding presidents accountable after they leave office and mentions 'another individual' in a generic or historical sense. It does not specifically mention Senator Schumer or detail any current demands by him and another individual regarding the President's accountability. Therefore, the evidence does not provide relevant support or refutation for the specific claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+          "text": "The principle that a president could be prosecuted was one agreed upon by all sides since the literal beginning of the nation. It has extended continuously into the present day. It\u2019s why President Gerald Ford\u00a0pardoned President Richard Nixon in 1974 and why President Bill Clinton\u00a0accepted a plea bargain in 2001. It\u2019s one of several ideas\u2014like the rule of law, the importance of accountability, the power of the vote, and the peaceful transfer of power\u2014that are integral parts of our national history and national identity.\nTrump\u2019s immunity claim would negate all of them. Indeed, his claim isn\u2019t just attempting to rewrite 18th-century history. It\u2019s attempt ...",
+          "url": "https://www.brennancenter.org/our-work/analysis-opinion/history-proves-presidents-can-be-held-accountable",
+          "reasoning": "The evidence discusses the general principle that presidents can be held accountable and references historical examples where presidents were held accountable. However, it does not mention Senator Schumer or any other individual demanding that the current President be held accountable. Therefore, the evidence is not directly relevant to the specific claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Senator Schumer and another individual are demanding the President be held accountable.",
+          "text": "Held: Under our constitutional structure of separated powers, the nature of Presidential power entitles a former President to absolute immunity.",
+          "url": "https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf",
+          "reasoning": "The evidence discusses the Supreme Court's decision about presidential immunity, specifying that a former President is entitled to absolute immunity under certain circumstances. It does not mention Senator Schumer or any individual's demands regarding holding the President accountable. Therefore, the evidence is irrelevant to the claim.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": "No evidence found."
+    }
+  ],
+  "summary": {
+    "num_claims": 3,
+    "num_checkworthy_claims": 2,
+    "num_verified_claims": 1,
+    "num_supported_claims": 0,
+    "num_refuted_claims": 0,
+    "num_controversial_claims": 1,
+    "factuality": 0.8333333333333334
+  }
+}
