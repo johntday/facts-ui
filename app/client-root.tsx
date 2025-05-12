@@ -1,10 +1,9 @@
 "use client";
 
-import { QueryClientProvider } from "@tanstack/react-query";
+import { Toaster } from "@components/ui/toaster.tsx";
+import { TooltipProvider } from "@components/ui/tooltip.tsx";
+import { ThemeProvider } from "next-themes";
 import React from "react";
-import { Toaster } from "../client/src/components/ui/toaster";
-import { TooltipProvider } from "../client/src/components/ui/tooltip";
-import { queryClient } from "../client/src/lib/queryClient";
 
 export default function ClientRoot({
   children,
@@ -12,13 +11,13 @@ export default function ClientRoot({
   children: React.ReactNode;
 }) {
   return (
-    <QueryClientProvider client={queryClient}>
+    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
       <TooltipProvider>
         <div className="min-h-screen flex flex-col">
           {children}
           <Toaster />
         </div>
       </TooltipProvider>
-    </QueryClientProvider>
+    </ThemeProvider>
   );
 }

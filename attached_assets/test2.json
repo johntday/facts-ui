@@ -1,0 +1,363 @@
+{
+    "raw_text": "I had my Tesla model S drive me home the other day with FSD, and it\u2019s fucking wild.  Changes lanes to avoid slow traffic, stops at red lights and stop signs, hits the blinkers and turns for you.",
+    "token_count": 47,
+    "usage": {
+        "decomposer": {
+            "model": "gpt-4.1",
+            "prompt_tokens": 1204,
+            "completion_tokens": 450
+        },
+        "checkworthy": {
+            "model": "gpt-4.1",
+            "prompt_tokens": 438,
+            "completion_tokens": 238
+        },
+        "query_generator": {
+            "model": "gpt-4.1",
+            "prompt_tokens": 1969,
+            "completion_tokens": 133
+        },
+        "evidence_crawler": {
+            "model": "gpt-4.1",
+            "prompt_tokens": 0,
+            "completion_tokens": 0
+        },
+        "claimverify": {
+            "model": "gpt-4.1",
+            "prompt_tokens": 17056,
+            "completion_tokens": 2776
+        }
+    },
+    "claim_detail": [
+        {
+            "id": 0,
+            "claim": "Tesla Model S drove user home using Full Self-Driving.",
+            "checkworthy": true,
+            "checkworthy_reason": "Yes (This statement makes a factual claim that can be verified, as it asserts that a specific car model, using a particular feature, performed a certain action.)",
+            "origin_text": "I had my Tesla model S drive me home the other day with FSD,",
+            "start": 0,
+            "end": 60,
+            "queries": [
+                "Tesla Model S drove user home using Full Self-Driving.",
+                "Can Tesla Model S use Full Self-Driving to drive a user home?",
+                "Did a Tesla Model S actually drive a user home using Full Self-Driving?"
+            ],
+            "evidences": [
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "Moral of the story: FSD is really just that good. I can use is 99% of the time, and really the only time I tend to over-rule it is in unusual situations.",
+                    "url": "https://www.reddit.com/r/TeslaModelY/comments/1irqr94/confession_of_a_fulltime_fullself_driving_owner/",
+                    "reasoning": "The evidence discusses the high effectiveness of Tesla's Full Self-Driving (FSD) system and mentions that the user can use it 99% of the time, only needing to intervene in unusual situations. However, there is no direct statement in the evidence that the Tesla Model S specifically drove the user home using FSD. Additionally, the post is about a user experience in general, with no explicit reference to driving home or confirming that FSD handled an entire journey without intervention.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "I've managed to get the car to both pull forward and back into my garage, down an alley, this way. If I favorite the pin I just dropped and try ...",
+                    "url": "https://teslamotorsclub.com/tmc/threads/fsd-drove-me-home-but-tried-to-back-in-to-driveway-2-houses-down.338915/",
+                    "reasoning": "The evidence describes a user experience where the Full Self-Driving feature of a Tesla managed to pull forward and back into the garage and mentions an incident where FSD 'drove me home but tried to back in to driveway 2 houses down.' This strongly suggests that the Tesla Model S used Full Self-Driving to take the user home, supporting the claim.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "The owner of a Tesla said he used the car's advanced driver-assistance system called Full Self-Driving to get home on Christmas after drinking.",
+                    "url": "https://www.businessinsider.com/tesla-self-driving-mode-got-owner-home-flawlessly-while-drunk-2023-1",
+                    "reasoning": "The evidence is a report from Business Insider that states an owner used Tesla's Full Self-Driving system to get home after drinking, implying the car drove the user home using Full Self-Driving. This directly supports the claim.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "Moral of the story: FSD is really just that good. I can use is 99% of the time, and really the only time I tend to over-rule it is in unusual situations.",
+                    "url": "https://www.reddit.com/r/TeslaModelY/comments/1irqr94/confession_of_a_fulltime_fullself_driving_owner/",
+                    "reasoning": "The evidence discusses a user\u2019s experience with Full Self-Driving (FSD), stating that they use it 99% of the time and only rarely over-rule it in unusual situations. However, the evidence does not specifically mention the Tesla Model S, nor does it provide direct confirmation that FSD drove the user home. The evidence is somewhat related, but does not directly address or confirm the specific claim.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "I've managed to get the car to both pull forward and back into my garage, down an alley, this way. If I favorite the pin I just dropped and try ...",
+                    "url": "https://teslamotorsclub.com/tmc/threads/fsd-drove-me-home-but-tried-to-back-in-to-driveway-2-houses-down.338915/",
+                    "reasoning": "The evidence describes a user managing to get their Tesla car to perform certain maneuvers, such as pulling forward and backing into a garage, using Full Self-Driving (FSD) features. It also references the car attempting to drive to a location marked by the user. The linked forum post title mentions 'FSD drove me home,' which implies that FSD was used to bring the user home. Although this evidence is anecdotal and not an official report, it is first-hand and directly relevant to the claim, providing credible support that a Tesla Model S was able to drive a user home using Full Self-Driving.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "The owner of a Tesla said he used the car's advanced driver-assistance system called Full Self-Driving to get home on Christmas after drinking.",
+                    "url": "https://www.businessinsider.com/tesla-self-driving-mode-got-owner-home-flawlessly-while-drunk-2023-1",
+                    "reasoning": "The evidence is a report from Business Insider that states an owner used Tesla's Full Self-Driving system to get home after drinking, implying the car drove the user home using Full Self-Driving. This directly supports the claim.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "Additionally with Full Self-Driving (Supervised), you can drive your Tesla vehicle almost anywhere, making lane changes, select forks to follow your ...",
+                    "url": "https://www.tesla.com/support/autopilot",
+                    "reasoning": "The evidence describes the capabilities of Tesla's Full Self-Driving (Supervised), such as making lane changes and following routes, but it does not specify that a Tesla Model S actually drove a user home using Full Self-Driving. It discusses features in general, not a specific instance related to the claim.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "With FSD a Tesla can in theory drive itself from interstate onramp to offramp. Including lane changes and taking over slower cars.",
+                    "url": "https://www.reddit.com/r/TeslaModelY/comments/zexpp8/can_a_tesla_technically_drive_itself_like_yes_i/",
+                    "reasoning": "The evidence states that with FSD (Full Self-Driving), a Tesla can in theory drive itself from an interstate onramp to an offramp and perform certain driving tasks like lane changes and overtaking slower cars. However, it does not provide any specific information about a Tesla Model S actually driving a user home, nor does it mention any user\u2019s experience. Therefore, the evidence is speculative and does not directly support or refute the specific claim.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "You can use Full Self-Driving (Supervised) on any type of roadway, including residential and city streets. A warning icon, calling your attention to a possibly ...",
+                    "url": "https://www.tesla.com/ownersmanual/models/en_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+                    "reasoning": "The evidence states that Full Self-Driving (Supervised) can be used on residential and city streets but does not confirm that a Tesla Model S specifically drove a user home using the feature. It only describes the capability without verifying the occurrence of the claimed event. Thus, the evidence is irrelevant to whether a specific journey home occurred using Full Self-Driving.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "Yes. Autopilot is a hands-on driver assistance system that is intended to be used only with a fully attentive driver. It does not turn a Tesla into a self- ...",
+                    "url": "https://www.tesla.com/support/autopilot",
+                    "reasoning": "The evidence explains that Autopilot is a driver assistance system requiring a fully attentive driver and does not make the car fully self-driving. It does not provide specific information about a Tesla Model S using Full Self-Driving to drive a user home, nor does it confirm or deny such an event. Instead, it sets general limitations on the system but does not address the specific claim. Therefore, the evidence is irrelevant to the claim.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "I ask everyone I see driving a Tesla whether they have full self driving and are using it. Overwhelmingly the answer is no.",
+                    "url": "https://www.reddit.com/r/TeslaModelY/comments/1izqbpd/who_has_and_is_using_fsd/",
+                    "reasoning": "The evidence provided discusses the frequency with which Tesla owners use Full Self-Driving (FSD) but does not provide any specific information about a Tesla Model S actually driving a user home using FSD. Therefore, it does not address the claim directly or provide relevant information about the specific situation described in the claim.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S drove user home using Full Self-Driving.",
+                    "text": "The new answer is FSD absolutely can (which is not the same as autopilot). FSD version 12.5 and up has been doing this since November 2024.",
+                    "url": "https://www.quora.com/Can-Tesla-s-self-driving-cars-drive-from-an-airport-through-suburbs-right-down-to-your-home-completely-on-autopilot",
+                    "reasoning": "The evidence asserts that Full Self-Driving (FSD) can drive a user home and that FSD version 12.5 and up has been able to perform this task since November 2024. Although there is no direct statement about a specific instance of the Model S driving a user home, it generally supports the claim that the Tesla Model S, equipped with FSD, is capable of this. Therefore, the evidence supports the claim that Tesla Model S drove user home using Full Self-Driving.",
+                    "relationship": "SUPPORTS"
+                }
+            ],
+            "factuality": 1.0
+        },
+        {
+            "id": 1,
+            "claim": "Tesla Model S changes lanes to avoid slow traffic.",
+            "checkworthy": true,
+            "checkworthy_reason": "Yes (This is a fact-based claim regarding the capabilities of the Tesla Model S and can be checked through documentation, testing, or reports.)",
+            "origin_text": "and it\u2019s fucking wild.  Changes lanes to avoid slow traffic,",
+            "start": 61,
+            "end": 121,
+            "queries": [
+                "Tesla Model S changes lanes to avoid slow traffic.",
+                "Can Tesla Model S change lanes to avoid slow traffic?"
+            ],
+            "evidences": [
+                {
+                    "claim": "Tesla Model S changes lanes to avoid slow traffic.",
+                    "text": "Tesla Model S changes lanes to avoid slow traffic.\nAnswer: Speed Based Lane Changes: Navigate on Autopilot changes lanes to reduce driving time to your destination. For example, if Model S is behind a vehicle going below the set cruising speed, Navigate on Autopilot will move into the passing lane to pass it. Speed-based lanes changes are optional.",
+                    "url": "Google Answer Box",
+                    "reasoning": "The evidence describes that Tesla Model S, when using Navigate on Autopilot, can change lanes to overtake vehicles moving below the set speed, reducing driving time. This directly addresses and supports the claim that the Model S changes lanes to avoid slow traffic.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S changes lanes to avoid slow traffic.",
+                    "text": "Can Tesla Model S change lanes to avoid slow traffic?\nAnswer: Speed Based Lane Changes: Navigate on Autopilot changes lanes to reduce driving time to your destination. For example, if Model S is behind a vehicle going below the set cruising speed, Navigate on Autopilot will move into the passing lane to pass it. Speed-based lanes changes are optional.",
+                    "url": "Google Answer Box",
+                    "reasoning": "The evidence explicitly states that the Tesla Model S, when using Navigate on Autopilot, can perform speed-based lane changes. Specifically, if the Model S is behind a vehicle going below the set speed, it will change lanes to pass it, thereby avoiding slow traffic. This directly supports the claim.",
+                    "relationship": "SUPPORTS"
+                }
+            ],
+            "factuality": 1.0
+        },
+        {
+            "id": 2,
+            "claim": "Tesla Model S stops at red lights.",
+            "checkworthy": true,
+            "checkworthy_reason": "Yes (This statement claims a specific observable behavior of the Tesla Model S, which can be validated through testing or official specifications.)",
+            "origin_text": "stops at red lights",
+            "start": 122,
+            "end": 141,
+            "queries": [
+                "Tesla Model S stops at red lights.",
+                "Can the Tesla Model S stop at red lights?"
+            ],
+            "evidences": [
+                {
+                    "claim": "Tesla Model S stops at red lights.",
+                    "text": "If a car is not in front of you, the touchscreen displays a red stop line. You must confirm that you want to continue through the intersection by briefly ...",
+                    "url": "https://www.tesla.com/ownersmanual/modely/en_ie/GUID-A701F7DC-875C-4491-BC84-605A77EA152C.html",
+                    "reasoning": "The evidence mentions that if there is no car in front of the Tesla (Model Y in the provided manual, but it uses similar software as Model S), the touchscreen displays a red stop line and requires driver confirmation to continue through the intersection. This indicates that without confirmation, the car will come to a stop at red lights or stop lines. Therefore, the evidence supports the claim that the Tesla Model S stops at red lights.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S stops at red lights.",
+                    "text": "If this happens, TAKE IMMEDIATE CORRECTIVE ACTION! The visual and audible warnings cancel after a few seconds, or when you press the brake pedal ...",
+                    "url": "https://teslamotorsclub.com/tmc/threads/red-light-and-stop-sign-warning.298395/",
+                    "reasoning": "The evidence discusses warnings given to the driver when approaching red lights or stop signs, but it also instructs the driver to take immediate corrective action and mentions pressing the brake pedal. This indicates that the Tesla Model S does not autonomously stop at red lights and requires driver intervention. Therefore, the evidence refutes the claim that the Tesla Model S stops at red lights autonomously.",
+                    "relationship": "REFUTES"
+                },
+                {
+                    "claim": "Tesla Model S stops at red lights.",
+                    "text": "It only stops or slows down based on the car directly in front of you. It will not stop at a stop sign or red light.",
+                    "url": "https://www.reddit.com/r/TeslaModel3/comments/136uof1/will_autopilot_non_fsd_stop_at_a_red_light/",
+                    "reasoning": "The evidence directly states that the Tesla Model S will not stop at a stop sign or red light, indicating that the claim that it stops at red lights is incorrect. Therefore, the evidence refutes the claim.",
+                    "relationship": "REFUTES"
+                },
+                {
+                    "claim": "Tesla Model S stops at red lights.",
+                    "text": "Traffic Light and Stop Sign Control attempts to stop at all traffic lights and may also stop at green lights.",
+                    "url": "https://www.tesla.com/ownersmanual/modely/en_eu/GUID-A701F7DC-875C-4491-BC84-605A77EA152C.html",
+                    "reasoning": "The evidence explains that Tesla's 'Traffic Light and Stop Sign Control' attempts to stop at all traffic lights. This supports the claim that Tesla Model S is designed to stop at red lights, as stopping at all traffic lights would include red ones.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S stops at red lights.",
+                    "text": "It only stops or slows down based on the car directly in front of you. It will not stop at a stop sign or red light.",
+                    "url": "https://www.reddit.com/r/TeslaModel3/comments/136uof1/will_autopilot_non_fsd_stop_at_a_red_light/",
+                    "reasoning": "The evidence directly states that the Tesla Model S will not stop at a stop sign or red light, indicating that the claim that it stops at red lights is incorrect. Therefore, the evidence refutes the claim.",
+                    "relationship": "REFUTES"
+                },
+                {
+                    "claim": "Tesla Model S stops at red lights.",
+                    "text": "There is an optional feature to stop at all lights and you hit the throttle to go through them or it will stop (red Or green).",
+                    "url": "https://teslamotorsclub.com/tmc/threads/autosteer-does-it-stop-at-red-lights.262954/",
+                    "reasoning": "The evidence states that there is an optional feature in Tesla vehicles which causes the car to stop at all lights (red or green), unless the driver intervenes. This feature indicates that the Model S can indeed stop at red lights. Since the claim is that 'Tesla Model S stops at red lights', the evidence supports the claim by describing a feature specifically designed to provide such stopping behavior.",
+                    "relationship": "SUPPORTS"
+                }
+            ],
+            "factuality": 0.5
+        },
+        {
+            "id": 3,
+            "claim": "Tesla Model S stops at stop signs.",
+            "checkworthy": true,
+            "checkworthy_reason": "Yes (The claim that this car model stops at stop signs can be objectively investigated.)",
+            "origin_text": "and stop signs,",
+            "start": 142,
+            "end": 157,
+            "queries": [
+                "Tesla Model S stops at stop signs.",
+                "Does the Tesla Model S stop at stop signs?"
+            ],
+            "evidences": [
+                {
+                    "claim": "Tesla Model S stops at stop signs.",
+                    "text": "Tesla Model S stops at stop signs.\nAnswer: Model S slows down and comes to a complete stop at the red stop line displayed on the instrument cluster. When you want to proceed through the intersection, you must pull the Autopilot stalk toward you or briefly press the accelerator pedal.",
+                    "url": "Google Answer Box",
+                    "reasoning": "The evidence directly states that the Tesla Model S slows down and comes to a complete stop at stop signs. This supports the claim that Tesla Model S stops at stop signs.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S stops at stop signs.",
+                    "text": "Does the Tesla Model S stop at stop signs?\nAnswer: Stop Signs and Road Markings Model S assumes the right of way and continues straight without slowing down or stopping. If Model S detects a T-junction based on the map data, Model S slows down and comes to a complete stop at the red stop line displayed on the instrument cluster.",
+                    "url": "Google Answer Box",
+                    "reasoning": "The evidence states that the Tesla Model S continues straight without slowing down or stopping at stop signs, unless it detects a T-junction based on map data, in which case it stops. This suggests that the Model S does not always stop at stop signs, but only in certain situations. Therefore, the evidence refutes the generalized claim that 'Tesla Model S stops at stop signs.'",
+                    "relationship": "REFUTES"
+                }
+            ],
+            "factuality": 0.5
+        },
+        {
+            "id": 4,
+            "claim": "Tesla Model S activates blinkers for turns.",
+            "checkworthy": true,
+            "checkworthy_reason": "Yes (The statement asserts the activation of a car feature in a specific context, which is verifiable.)",
+            "origin_text": "hits the blinkers",
+            "start": 158,
+            "end": 175,
+            "queries": [
+                "Tesla Model S activates blinkers for turns.",
+                "Does the Tesla Model S activate blinkers for turns?"
+            ],
+            "evidences": [
+                {
+                    "claim": "Tesla Model S activates blinkers for turns.",
+                    "text": "Pushing the turn signal half way (just long enough...) activates a lane change, which is 3 blinks. A little bit touchy as others say but it ...",
+                    "url": "https://teslamotorsclub.com/tmc/threads/turn-signal-operation.323424/",
+                    "reasoning": "The evidence describes how the Tesla Model S turn signal can be activated for lane changes (resulting in 3 blinks) by pushing the lever halfway. This indicates that the Model S uses blinkers (turn signals) for signaling turns or maneuvers, supporting the claim.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S activates blinkers for turns.",
+                    "text": "Full press of the turn signal stalk should keep the blinker on until a full turn is completed or until it's pressed again.",
+                    "url": "https://www.reddit.com/r/TeslaLounge/comments/zynyma/full_press_of_the_turn_signal_stalk_should_keep/",
+                    "reasoning": "The evidence states that a full press of the turn signal stalk keeps the blinker on until a full turn is completed or until it's pressed again. This directly supports the claim that the Tesla Model S activates blinkers for turns by indicating that the vehicle does have turn signal functionality that operates for turning.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S activates blinkers for turns.",
+                    "text": "Tesla's Auto Cancel feature is turned off by default. To enable it, go to Controls > Lights > and toggle Turn Signals to \"Auto Cancel.\"",
+                    "url": "https://www.notateslaapp.com/news/1114/tesla-s-auto-cancel-turn-signals-and-how-they-work",
+                    "reasoning": "The evidence discusses the Tesla Model S's 'Auto Cancel' feature for turn signals (blinkers), mentioning how to enable it. This suggests that the Model S does have operational blinkers (turn signals) and there are features related to their activation and cancellation. This supports the idea that the car does indeed activate blinkers for turns.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S activates blinkers for turns.",
+                    "text": "Have you ever wanted the turn signals back in the Model S or Model X? Here is the latest product from Tes Studios that will make your drive ...",
+                    "url": "https://www.youtube.com/watch?v=p7OX_W-w_JY",
+                    "reasoning": "The evidence mentions a product related to turn signals for the Tesla Model S or Model X, implying that there is some discussion about turn signals. However, it does not clearly state whether the factory Model S activates blinkers for turns or if an external product is needed to enable this feature. Therefore, the evidence does not directly address whether the Tesla Model S activates blinkers for turns.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S activates blinkers for turns.",
+                    "text": "The Model 3 and Model Y currently have two ways to use the blinkers. The first is a soft press, which causes the blinker to flash three times ...",
+                    "url": "https://www.notateslaapp.com/news/1114/tesla-s-auto-cancel-turn-signals-and-how-they-work",
+                    "reasoning": "The evidence discusses the use of blinkers (turn signals) in the Tesla Model 3 and Model Y but does not mention the Model S. While Model 3 and Model Y have mechanisms for activating blinkers, there is no direct evidence about the Tesla Model S's turn signal functionality in the provided information.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S activates blinkers for turns.",
+                    "text": "Turn signals in the Tesla doesn't always register because Tesla uses software to poll the turn signal stalk, rather than using traditional ...",
+                    "url": "https://www.reddit.com/r/RealTesla/comments/x2du17/turn_signals_in_the_tesla_doesnt_always_register/",
+                    "reasoning": "The claim is that the Tesla Model S activates blinkers for turns. The evidence discusses issues with the way Tesla's turn signals are registered due to software polling, implying that turn signals exist and are operable in the Tesla. Despite potential issues with registration or reliability, the presence and function of turn signals (blinkers) for turns in the vehicle is implied, supporting the core of the claim.",
+                    "relationship": "SUPPORTS"
+                }
+            ],
+            "factuality": 1.0
+        },
+        {
+            "id": 5,
+            "claim": "Tesla Model S turns for the user.",
+            "checkworthy": true,
+            "checkworthy_reason": "Yes (This statement claims that the Tesla Model S can make turns on behalf of the user, a verifiable assertion about its capability.)",
+            "origin_text": "and turns for you.",
+            "start": 176,
+            "end": 194,
+            "queries": [
+                "Tesla Model S turns for the user.",
+                "Does the Tesla Model S have an autonomous feature that allows it to turn for the user?"
+            ],
+            "evidences": [
+                {
+                    "claim": "Tesla Model S turns for the user.",
+                    "text": "Touch and hold Start FSD (Supervised) on the touchscreen and, if prompted, press the brake pedal to continue. Model S shifts into Drive or Reverse as necessary, ...",
+                    "url": "https://www.tesla.com/ownersmanual/models/en_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+                    "reasoning": "The evidence describes how the Tesla Model S can shift into Drive or Reverse automatically as part of Full Self-Driving (FSD) functionality, which suggests a level of automation. However, the evidence does not directly mention the car's ability to turn for the user. The information is about starting FSD mode, not about the specific capability of turning autonomously.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S turns for the user.",
+                    "text": "Have you ever wanted the turn signals back in the Model S or Model X? Here is the latest product from Tes Studios that will make your drive ...",
+                    "url": "https://www.youtube.com/watch?v=p7OX_W-w_JY",
+                    "reasoning": "The evidence discusses a product regarding turn signals for the Tesla Model S or Model X, possibly implying an aftermarket accessory or modification. However, it does not directly state whether the Tesla Model S can turn for the user (which could mean autonomous steering or automated turns). The evidence focuses on turn signals, not on the car turning itself. Therefore, the evidence is irrelevant to the claim.",
+                    "relationship": "IRRELEVANT"
+                },
+                {
+                    "claim": "Tesla Model S turns for the user.",
+                    "text": "Navigate on Autopilot allows Model S to suggest and, if configured, automatically change lanes to pass other vehicles and follow the navigation route.",
+                    "url": "https://www.tesla.com/ownersmanual/models/en_us/GUID-20F2262F-CDF6-408E-A752-2AD9B0CC2FD6.html",
+                    "reasoning": "The evidence states that 'Navigate on Autopilot' allows the Tesla Model S to automatically change lanes to pass other vehicles and follow the navigation route. This implies that the car can turn (change lanes or follow navigation turns) automatically for the user, which supports the claim that the Tesla Model S turns for the user.",
+                    "relationship": "SUPPORTS"
+                },
+                {
+                    "claim": "Tesla Model S turns for the user.",
+                    "text": "Does the Tesla Model S have an autonomous feature that allows it to turn for the user?\nAnswer: Additionally with Full Self-Driving (Supervised), you can drive your Tesla vehicle almost anywhere, making lane changes, select forks to follow your navigation route, navigate around other vehicles and objects and make left and right turns under your active supervision.",
+                    "url": "Google Answer Box",
+                    "reasoning": "The evidence describes that with Full Self-Driving (Supervised), the Tesla Model S can make lane changes and both left and right turns for the user under supervision. This supports the claim that the Tesla Model S turns for the user, given the appropriate autonomous features enabled.",
+                    "relationship": "SUPPORTS"
+                }
+            ],
+            "factuality": 1.0
+        }
+    ],
+    "summary": {
+        "num_claims": 6,
+        "num_checkworthy_claims": 6,
+        "num_verified_claims": 6,
+        "num_supported_claims": 4,
+        "num_refuted_claims": 0,
+        "num_controversial_claims": 2,
+        "factuality": 0.8333333333333334
+    }
+}

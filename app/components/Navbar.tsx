@@ -1,12 +1,8 @@
-"use client";
-
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggleClient from "./ThemeToggleClient";
 
-export default function Navbar() {
-  const pathname = usePathname();
-
+// Server Component
+export default function Navbar({ pathname = "" }: { pathname?: string }) {
   return (
     <header className="bg-background border-b border-border sticky top-0 z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,7 +42,7 @@ export default function Navbar() {
             </nav>
           </div>
           <div className="flex items-center gap-2">
-            <ThemeToggle />
+            <ThemeToggleClient />
             {/*<div className="flex-shrink-0">*/}
             {/*  <Button>*/}
             {/*    <PlusIcon className="h-5 w-5 mr-2" />*/}

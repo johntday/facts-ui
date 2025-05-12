@@ -4,6 +4,11 @@ import { NextResponse } from "next/server";
 import path from "path";
 import { z } from "zod";
 
+/**
+ * @deprecated This API route is deprecated in favor of direct server-side rendering.
+ * Use the data fetching utilities in app/lib/data.ts instead.
+ */
+
 // Get a specific claim verification by ID
 async function getClaimVerificationById(
   id: string
@@ -53,7 +58,13 @@ export async function GET(
       );
     }
 
-    return NextResponse.json(claim);
+    // Add deprecation warning header
+    return NextResponse.json(claim, {
+      headers: {
+        "X-Deprecation-Warning":
+          "This API route is deprecated in favor of direct server-side rendering",
+      },
+    });
   } catch (error) {
     console.error("Error fetching claim by ID:", error);
     return NextResponse.json(
