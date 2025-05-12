@@ -1,0 +1,885 @@
+{
+  "raw_text": "Let\u2019s see if I can help.  1. Qatar is a terrorist state that funds Hamas, the Taliban, aligned with Iran and is pouring billions into our country fomenting riots, etc.  2. Hamas is a monstrous genocidal terrorist organization that slaughtered, raped, and brutalized Israelis and Americans in ways so horrific the videos cannot be shown by our media.  3. Saudi Arabia funded Al-Qaeda and 9/11, slaughtering over 2000 Americans. It still hasn\u2019t even apologized.  Israel is our ally. Stop pissing on them.",
+  "token_count": 121,
+  "usage": {
+    "decomposer": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 1783,
+      "completion_tokens": 1165
+    },
+    "checkworthy": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 535,
+      "completion_tokens": 680
+    },
+    "query_generator": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 5236,
+      "completion_tokens": 302
+    },
+    "evidence_crawler": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+    },
+    "claimverify": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 46365,
+      "completion_tokens": 7553
+    }
+  },
+  "claim_detail": [
+    {
+      "id": 0,
+      "claim": "Qatar funds Hamas.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement asserts a specific financial relationship between Qatar and Hamas that can be checked against reports and official records.)",
+      "origin_text": "Let\u2019s see if I can help.  1. Qatar is a terrorist state that funds Hamas,",
+      "start": 0,
+      "end": 73,
+      "queries": [
+        "Qatar funds Hamas.",
+        "Does Qatar fund Hamas?"
+      ],
+      "evidences": [
+        {
+          "claim": "Qatar funds Hamas.",
+          "text": "Qatar has been a key financial supporter of the Palestinian militant organization Hamas, transferring more than $1.8 billion to Hamas over the years.",
+          "url": "https://en.wikipedia.org/wiki/Qatari_support_for_Hamas",
+          "reasoning": "The evidence explicitly states that Qatar has been a key financial supporter of Hamas and has transferred more than $1.8 billion to the group over the years. This directly supports the claim that Qatar funds Hamas.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar funds Hamas.",
+          "text": "For years, the Qatari government had been sending millions of dollars a month into the Gaza Strip \u2014 money that helped prop up the Hamas ...",
+          "url": "https://www.nytimes.com/2023/12/10/world/middleeast/israel-qatar-money-prop-up-hamas.html",
+          "reasoning": "The evidence states that the Qatari government has been sending millions of dollars a month into the Gaza Strip and that this money 'helped prop up the Hamas.' This directly indicates that Qatar provides financial support that benefits Hamas, which supports the claim that Qatar funds Hamas.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar funds Hamas.",
+          "text": "Qatar was prepared to provide funds to the Gaza Strip through Hamas as early as the 2014 Israel-Hamas war to alleviate the humanitarian crisis ...",
+          "url": "https://www.cnn.com/2023/12/11/middleeast/qatar-hamas-funds-israel-backing-intl",
+          "reasoning": "The evidence states that Qatar was prepared to provide funds to the Gaza Strip through Hamas during the 2014 Israel-Hamas war to alleviate the humanitarian crisis. This indicates that Qatar did provide or was willing to provide funds that went through Hamas, supporting the claim that Qatar funds Hamas.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar funds Hamas.",
+          "text": "Qatar has been a key financial supporter of the Palestinian militant organization Hamas, transferring more than $1.8 billion to Hamas over the years.[1][2] In consultation with the U.S. and Israeli governments, $30 million were transferred monthly to Hamas, according to a Qatari official interviewed by Der Spiegel in 2023.[3]\nThe United States requested in 2011 that Qatar provide a base for the Hamas leadership to ease communications with the group.[3] From 2012, Qatar hosted the Hamas party leadership when Hamas head Khaled Mashal relocated from Syria to Qatar.[4] The former head of Hamas, Ismail Haniyeh, had resided in Doha since 2016 unti ...",
+          "url": "https://en.wikipedia.org/wiki/Qatari_support_for_Hamas",
+          "reasoning": "The evidence explicitly states that Qatar has been a key financial supporter of Hamas, having transferred significant sums of money (over $1.8 billion and $30 million monthly in consultation with the U.S. and Israel) to Hamas. Furthermore, Qatar has hosted Hamas leadership, confirming material support and facilitation. This evidence directly addresses and supports the claim that Qatar funds Hamas.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar funds Hamas.",
+          "text": "For years, the Qatari government had been sending millions of dollars a month into the Gaza Strip \u2014 money that helped prop up the Hamas ...",
+          "url": "https://www.nytimes.com/2023/12/10/world/middleeast/israel-qatar-money-prop-up-hamas.html",
+          "reasoning": "The evidence states that the Qatari government has been sending millions of dollars a month into the Gaza Strip and that this money 'helped prop up the Hamas.' This directly indicates that Qatar provides financial support that benefits Hamas, which supports the claim that 'Qatar funds Hamas.'",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar funds Hamas.",
+          "text": "Qatar was prepared to provide funds to the Gaza Strip through Hamas as early as the 2014 Israel-Hamas war to alleviate the humanitarian crisis ...",
+          "url": "https://www.cnn.com/2023/12/11/middleeast/qatar-hamas-funds-israel-backing-intl",
+          "reasoning": "The evidence states that Qatar was prepared to provide funds to the Gaza Strip through Hamas during the 2014 Israel-Hamas war to alleviate the humanitarian crisis. This indicates that Qatar did provide or was willing to provide funds that went through Hamas, supporting the claim that Qatar funds Hamas.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar funds Hamas.",
+          "text": "Does Qatar fund Hamas?\nAnswer: Qatar has been a key financial supporter of the Palestinian militant organization Hamas, transferring more than $1.8 billion to Hamas over the years. In consultation with the U.S. and Israeli governments, $30 million were transferred monthly to Hamas, according to a Qatari official interviewed by Der Spiegel in 2023.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence explicitly states that Qatar has been a key financial supporter of Hamas, transferring significant amounts of money, including monthly payments in consultation with the U.S. and Israel. This directly affirms the claim that Qatar funds Hamas.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 1,
+      "claim": "Qatar funds the Taliban.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement claims a specific funding relationship between Qatar and the Taliban, which can be investigated through available evidence and credible reports.)",
+      "origin_text": "the Taliban,",
+      "start": 74,
+      "end": 86,
+      "queries": [
+        "Qatar funds the Taliban.",
+        "Does Qatar provide funding to the Taliban?"
+      ],
+      "evidences": [
+        {
+          "claim": "Qatar funds the Taliban.",
+          "text": "Qatar funds the Taliban.\nAnswer: The main reason cited for the severing of links was Qatar's alleged financing and hosting of Islamic extremist groups, including the Taliban. In response, a Qatari government officially denied that Qatar supported the Taliban, and claimed that they hosted the Taliban after being requested to do so by the US government.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that Qatar has been accused of financing and hosting extremist groups, including the Taliban, which could suggest support of the claim. However, it also notes that the Qatari government officially denied supporting the Taliban and claims their hosting was at the request of the US government. The evidence presents both the accusation and an official denial, creating a conflicting account and lacking conclusive proof of funding. Therefore, while allegations exist, the evidence itself does not definitively support or refute the claim and instead reports conflicting positions.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Qatar funds the Taliban.",
+          "text": "Does Qatar provide funding to the Taliban?\nAnswer: The main reason cited for the severing of links was Qatar's alleged financing and hosting of Islamic extremist groups, including the Taliban. In response, a Qatari government officially denied that Qatar supported the Taliban, and claimed that they hosted the Taliban after being requested to do so by the US government.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence mentions that Qatar was alleged to have financed and hosted Islamic extremist groups, including the Taliban, but also notes that the Qatari government officially denied supporting the Taliban and claimed they only hosted them at the request of the US government. Since the evidence contains allegations but also includes direct denial from the Qatari government, it does not provide definitive support or direct contradiction with credible sourcing for the claim. The presence of both an allegation and an official denial makes it inconclusive and does not offer clear, reliable proof regarding whether Qatar actually funds the Taliban.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": "No evidence found."
+    },
+    {
+      "id": 2,
+      "claim": "Qatar is aligned with Iran.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (This is a general claim about international relations. While 'aligned' may be subjective, there are verifiable elements such as voting records, treaties, and official statements that can be investigated.)",
+      "origin_text": "aligned with Iran",
+      "start": 87,
+      "end": 104,
+      "queries": [
+        "Qatar is aligned with Iran.",
+        "Is Qatar aligned with Iran?"
+      ],
+      "evidences": [
+        {
+          "claim": "Qatar is aligned with Iran.",
+          "text": "Qatar is aligned with Iran.\nAnswer: Both are members of the Non-Aligned Movement and the Organisation of the Islamic Conference. Unlike fellow GCC member states Saudi Arabia and the United Arab Emirates, Qatar generally refrains from criticising Iran's domestic and foreign activities.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence notes that Qatar generally refrains from criticizing Iran's domestic and foreign activities, which suggests a more cooperative relationship compared to other GCC members. It also highlights that both are members of certain international organizations. While it does not state outright that Qatar is 'aligned' with Iran in terms of official policies or strategic alliances, the evidence supports the notion of relatively amicable relations and lack of open criticism, which fits a broad interpretation of alignment.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is aligned with Iran.",
+          "text": "The two countries have a close economic relationship which affects their diplomatic relations, particularly in the oil and gas industries. Iran and Qatar ...",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Qatar_relations",
+          "reasoning": "The evidence states that Qatar and Iran have a close economic relationship that affects their diplomatic relations, especially in the oil and gas industries. Strong economic and diplomatic ties generally suggest a degree of political alignment. Therefore, the evidence supports the claim that Qatar is aligned with Iran.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is aligned with Iran.",
+          "text": "Qatar has undermined American policy on Iran through Doha's ties to the Islamic Republic, support for Islamist terrorist groups like Hamas, and an adversarial ...",
+          "url": "https://www.unitedagainstnucleariran.com/qatar-iran-and-united-states",
+          "reasoning": "The evidence indicates that Qatar maintains ties with Iran and has acted in ways that undermine American policy towards Iran. While it does not specify the exact nature or extent of the alignment, the mention of 'Doha's ties to the Islamic Republic' implies a certain degree of alignment or cooperative relationship between Qatar and Iran.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is aligned with Iran.",
+          "text": "The relationship between Qatar and the Islamic Republic of Iran is one driven by mutual interests over ideological alignment, helping both to fulfil regional and international objectives.Qatar is a Sunni-led monarchy, while the Islamic Republic of Iran is a Shiite theocracy. This marked difference, however, has not undermined their relationship. Why? Because it serves both sides immensely.For Qatar, this partnership balances its extensive Western ties with a regional power that opposes the United States. For Iran, it provides a diplomatic boost in international forums, helping circumvent its growing isolation.In recen ...",
+          "url": "https://www.iranintl.com/en/202412028985",
+          "reasoning": "The evidence explains that the relationship between Qatar and Iran is primarily driven by mutual interests and the fulfillment of regional and international objectives, rather than by ideological alignment. While both countries maintain a cooperative relationship that serves practical needs and balances their other alliances, there is a clear distinction made between cooperation based on interests and actual alignment, especially given their religious and political differences. Therefore, the evidence does not support the claim that Qatar is aligned with Iran in the sense of shared ideology or full alliance.",
+          "relationship": "REFUTES"
+        }
+      ],
+      "factuality": 0.75
+    },
+    {
+      "id": 3,
+      "claim": "Qatar is investing billions of dollars into another country.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement asserts that Qatar is making large-scale investments abroad; this is a verifiable claim through financial news and official data, despite the lack of specificity about the target country.)",
+      "origin_text": "and is pouring billions into our country",
+      "start": 105,
+      "end": 145,
+      "queries": [
+        "Qatar is investing billions of dollars into another country.",
+        "Is Qatar investing billions of dollars into another country?",
+        "Which country is Qatar investing in?"
+      ],
+      "evidences": [
+        {
+          "claim": "Qatar is investing billions of dollars into another country.",
+          "text": "Qatar and Egypt agreed to work towards a package of $7.5 billion in direct Qatari investments, according to a joint statement released by ...",
+          "url": "https://www.reuters.com/world/qatar-egypt-agree-work-towards-package-75-billion-direct-qatari-investment-2025-04-14/",
+          "reasoning": "The evidence states that Qatar and Egypt have agreed to work towards a package of $7.5 billion in direct Qatari investments in Egypt. This confirms that Qatar is investing billions of dollars into another country (Egypt), aligning directly with the claim.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is investing billions of dollars into another country.",
+          "text": "Egypt and Qatar said they agreed to \u201cwork toward\u201d a $7.5 billion investment package for the North African nation that'll be enacted over an ...",
+          "url": "https://www.bloomberg.com/news/articles/2025-04-14/egypt-qatar-working-on-7-5-billion-investment-package",
+          "reasoning": "The evidence states that Egypt and Qatar have agreed to work toward a $7.5 billion investment package for Egypt. This directly supports the claim that Qatar is investing billions of dollars into another country.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is investing billions of dollars into another country.",
+          "text": "Qatar is the largest source of foreign donations to U.S. universities since reporting began in 1986, with $6.3 billion coming from the gas-rich ...",
+          "url": "https://www.thefp.com/p/explosion-in-foreign-funding-for-american-universities",
+          "reasoning": "The evidence shows that Qatar has provided $6.3 billion in donations to U.S. universities, which qualifies as investing billions of dollars into another country (the United States). This directly supports the claim by providing a specific example of Qatar's foreign investments.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is investing billions of dollars into another country.",
+          "text": "According to the World Bank, Qatar's outward foreign investment net outflows reached $2.38 billion in 2022. Sectors that account for most of Qatar's outward FDI ...",
+          "url": "https://www.state.gov/reports/2024-investment-climate-statements/qatar/",
+          "reasoning": "The evidence states that Qatar's outward foreign investment net outflows reached $2.38 billion in 2022, which indicates that Qatar is investing money in other countries. This directly supports the claim that Qatar is investing billions of dollars into another country or countries.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is investing billions of dollars into another country.",
+          "text": "According to the statement, Qatar will invest $10 billion in India in infrastructure, technology, manufacturing, food security, logistics, ...",
+          "url": "https://www.reuters.com/world/india/india-qatar-aim-double-trade-28-bln-five-years-2025-02-18/",
+          "reasoning": "The evidence clearly states that Qatar will invest $10 billion in India across multiple sectors such as infrastructure, technology, manufacturing, food security, and logistics. This directly supports the claim that Qatar is investing billions of dollars into another country.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Qatar is investing billions of dollars into another country.",
+          "text": "The Qatar Investment Authority is leveraging its over-$500 billion in assets to attract venture capital firms to the hydrocarbon-rich state.",
+          "url": "https://www.cnbc.com/2025/02/27/qatar-attracts-vc-fund-managers-to-doha-with-its-1-billion-fund-of-funds.html",
+          "reasoning": "The evidence discusses the Qatar Investment Authority using its significant assets to attract venture capital firms to Qatar and specifically mentions efforts to bring VC fund managers to Doha by using a $1 billion fund of funds. However, there is no information provided in the evidence showing that Qatar is investing billions of dollars into another country. The focus is on Qatar attracting investment into itself, not investing abroad.",
+          "relationship": "REFUTES"
+        },
+        {
+          "claim": "Qatar is investing billions of dollars into another country.",
+          "text": "Which country is Qatar investing in?\nAnswer: Qatar already had a strong investment relationship with the US. In 2015, the Qatar Investment Authority pledged a $35bn investment and opened offices in New York and Washington to facilitate the investments. QIA later committed $45bn in 2019.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that the Qatar Investment Authority pledged and committed significant investment amounts ($35bn and $45bn) into the United States, demonstrating that Qatar is investing billions of dollars into another country (specifically, the US). This directly supports the claim.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 0.8571428571428571
+    },
+    {
+      "id": 4,
+      "claim": "Qatar is accused of fomenting riots in another country.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement asserts that an accusation has been made; whether or not the accusation is true, the existence of such an accusation is objectively verifiable.)",
+      "origin_text": "fomenting riots, etc.",
+      "start": 146,
+      "end": 167,
+      "queries": [
+        "Qatar is accused of fomenting riots in another country.",
+        "Is Qatar accused of fomenting riots in another country?"
+      ],
+      "evidences": [
+        {
+          "claim": "Qatar is accused of fomenting riots in another country.",
+          "text": "Sunni-ruled Bahrain has been wracked by unrest since security forces crushed pro-democracy protests mainly led by the majority Shia community six years ago.The king brought in troops from neighbouring Sunni-led Gulf states to end the demonstrations and restore order. The unrest left 30 civilians and five police dead.Activists say dozens more people have been killed in clashes between protesters and security forces since then, while bomb attacks blamed on Shia militants allegedly backed by Iran have killed a number of policemen.Ali Salman was jailed in 2015 after being convicted of inciting hatred, promoting disobedience and insulting pub ...",
+          "url": "https://www.bbc.com/news/world-middle-east-40953906",
+          "reasoning": "The evidence discusses unrest in Bahrain, mentioning that unrest was mainly led by the majority Shia community, and that bomb attacks have been blamed on Shia militants allegedly backed by Iran. There is no mention of Qatar being accused of fomenting riots in another country. Therefore, the evidence does not address the claim about Qatar.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Qatar is accused of fomenting riots in another country.",
+          "text": "Sunni-ruled Bahrain has been wracked by unrest since security forces crushed pro-democracy protests mainly led by the majority Shia community six years ago.The king brought in troops from neighbouring Sunni-led Gulf states to end the demonstrations and restore order. The unrest left 30 civilians and five police dead.Activists say dozens more people have been killed in clashes between protesters and security forces since then, while bomb attacks blamed on Shia militants allegedly backed by Iran have killed a number of policemen.Ali Salman was jailed in 2015 after being convicted of inciting hatred, promoting disobedience and insulting pub ...",
+          "url": "https://www.bbc.co.uk/news/world-middle-east-40953906",
+          "reasoning": "The evidence discusses unrest in Bahrain, detailing its Sunni-Shia dynamics, interventions by neighboring Sunni-led Gulf states, and accusations that Shia militants, allegedly backed by Iran, carried out bomb attacks. There is no mention of Qatar being accused of fomenting riots or being involved in promoting unrest in another country. Therefore, the evidence is irrelevant to the claim about Qatar.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Qatar is accused of fomenting riots in another country.",
+          "text": "The Qataris fear unrest amongst those foreign workers, which in their eyes may have ripple effects, and the Filipino protests should be viewed ...",
+          "url": "https://www.jpost.com/middle-east/article-848318",
+          "reasoning": "The evidence discusses Qatar's concerns regarding unrest among foreign workers and mentions Filipino protests, but it does not indicate that Qatar is accused of fomenting riots in another country. The evidence instead focuses on Qatar's fears of unrest spreading to its own territory, not it actively instigating disturbances elsewhere.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Qatar is accused of fomenting riots in another country.",
+          "text": "Sunni-ruled Bahrain has been wracked by unrest since security forces crushed pro-democracy protests mainly led by the majority Shia community six years ago.The king brought in troops from neighbouring Sunni-led Gulf states to end the demonstrations and restore order. The unrest left 30 civilians and five police dead.Activists say dozens more people have been killed in clashes between protesters and security forces since then, while bomb attacks blamed on Shia militants allegedly backed by Iran have killed a number of policemen.Ali Salman was jailed in 2015 after being convicted of inciting hatred, promoting disobedience and insulting pub ...",
+          "url": "https://www.bbc.com/news/world-middle-east-40953906",
+          "reasoning": "The evidence discusses unrest in Bahrain, mentioning that its Sunni-ruled government accused Shia militants allegedly backed by Iran of being behind bomb attacks, and refers to the role of neighboring Sunni-led Gulf states in restoring order. There is no mention of Qatar being accused of fomenting riots or being involved in unrest in another country. Therefore, the evidence is irrelevant to the claim about Qatar.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Qatar is accused of fomenting riots in another country.",
+          "text": "In August 2021, Qatari authorities were accused of suppressing protests by members of the Al Murrah tribe against an \u201carbitrary law\u201d that barred them from running in Shura Council elections. Tribe members shared their grievances on X.The Qatari Ministry of Interior later announced on X that seven individuals had been referred to the Public Prosecution for allegedly using social media to spread \u201cfalse news\u201d and incite \u201cracist and tribal tensions.\u201d3. The right to voteFollowing these protests, Qatar\u2019s Shura Council reverted to an entirely appointed system after holding a single election cycle (2021\u20132024). In late 2024, the council voted ...",
+          "url": "https://www.aa.com.tr/en/middle-east/qatar-faces-international-scrutiny-over-human-rights-violations/3524651",
+          "reasoning": "The evidence discusses accusations against Qatar for suppressing protests by the Al Murrah tribe and for referring individuals to prosecution for inciting tensions via social media. However, there is no mention in the evidence of Qatar fomenting riots in another country; instead, it focuses on Qatar's internal events and government actions against its own citizens' protests. Therefore, the evidence is irrelevant to the claim about Qatar being accused of fomenting riots abroad.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Qatar is accused of fomenting riots in another country.",
+          "text": "On June 5, 2017, a number of countries severed diplomatic ties with Qatar accusing it of fomenting regional unrest, supporting terrorism and rapprochement with Iran. The action generally followed Qatar\u2019s bettering of relations with Iran and leniency towards funding terrorism, but specifically  after the leaked publication of a speech expressing sympathy with Iran and Israel, among others, by Qatar\u2019s emir. Initial proponents of the diplomatic action and its key actors include Saudi Arabia, the UAE, Egypt and Bahrain. The list of countries  that cut or downgraded their ties with Qatar following the initial action also includes the Maldives, Yemen and Comoro ...",
+          "url": "https://www.thegazelle.org/issue/116/qatar-crisis-explained",
+          "reasoning": "The evidence explains that several countries accused Qatar of fomenting regional unrest and supporting terrorism, which led to a diplomatic crisis and severing of ties. However, it does not provide specific information or mention any explicit accusation that Qatar fomented riots in another country. The terms 'fomenting regional unrest' and 'supporting terrorism' are broader and not directly equivalent to fomenting riots. Thus, while the evidence is somewhat related, it does not clearly support or refute the specific claim involving riots.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": "No evidence found."
+    },
+    {
+      "id": 5,
+      "claim": "Hamas is considered a terrorist organization.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (This statement is verifiable by referencing official terrorist designation lists from governments or international bodies.)",
+      "origin_text": " 2. Hamas is a monstrous genocidal terrorist organization",
+      "start": 168,
+      "end": 225,
+      "queries": [
+        "Hamas is considered a terrorist organization.",
+        "Is Hamas considered a terrorist organization?"
+      ],
+      "evidences": [
+        {
+          "claim": "Hamas is considered a terrorist organization.",
+          "text": "Hamas is considered a terrorist organization.\nAnswer: The U.S. Department of State designated HAMAS as a foreign terrorist organization (FTO) in 1997 after its armed element, the Izz al-Din al-Qassam Brigade, began conducting attacks against Israeli civilians in pursuit of its goal to establish a Palestinian state.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that the U.S. Department of State designated Hamas as a foreign terrorist organization in 1997, directly confirming the claim that Hamas is considered a terrorist organization. The evidence is specific and relevant to the claim.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas is considered a terrorist organization.",
+          "text": "Is Hamas considered a terrorist organization?\nAnswer: The US Government has designated HAMAS a Foreign Terrorist Organization.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence directly states that the US Government has designated Hamas as a Foreign Terrorist Organization. This specific designation by a national government strongly supports the claim that Hamas is considered a terrorist organization, at least by the United States.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 6,
+      "claim": "Hamas has committed acts of genocide.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement makes a specific claim about Hamas's actions that can be checked against investigative reports, legal documents, and historical records.)",
+      "origin_text": "",
+      "start": 225,
+      "end": 225,
+      "queries": [
+        "Hamas has committed acts of genocide.",
+        "Has Hamas committed acts that meet the legal definition of genocide?"
+      ],
+      "evidences": [
+        {
+          "claim": "Hamas has committed acts of genocide.",
+          "text": "Increasing partisanship in Genocide Studies threatens the field itself, as well as the very act of genocide prevention.Abdelwahab El-AffendiProfessor of Politics at Doha Institute for Graduate StudiesPublished On 3 Feb 20243 Feb 2024Pro-Palestinian demonstrators protest as they take part in the \"Biden: stop supporting genocide!\" rally in New York City on January 20, 2024 [Reuters/Jeenah Moon]It is interesting that it was Israeli leaders and their allies in Washington who first brought the term \u201cgenocide\u201d into the Gaza conflict. In the aftermath of Hamas\u2019s attack on October 7, they repeatedly brought up reference ...",
+          "url": "https://www.aljazeera.com/opinions/2024/2/3/gaza-and-the-dilemmas-of-genocide-scholars",
+          "reasoning": "The evidence discusses how the term 'genocide' has been invoked in reference to the Gaza conflict, mentioning that Israeli leaders and their allies referenced 'genocide' after Hamas's attack on October 7. However, the evidence does not state that Hamas committed acts of genocide, nor does it provide factual details supporting or refuting the claim. It mainly comments on the usage of the term 'genocide' in the context of the broader conflict and the discourse around it. Therefore, the evidence is irrelevant to the specific claim about Hamas committing acts of genocide.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Hamas has committed acts of genocide.",
+          "text": "7 massacre by Hamas in Israel has been unrelenting. A common, libelous trope among the haters is that Israel is committing genocide in Gaza ...",
+          "url": "https://www.ajc.org/news/genocide-and-hamas-go-hand-in-hand",
+          "reasoning": "The evidence provided discusses accusations of genocide in the context of Israel and Gaza, and refers to a 'libelous trope' that claims Israel is committing genocide in Gaza. The article title suggests a possible association between genocide and Hamas, but the provided excerpt itself does not contain any direct evidence or concrete information supporting or refuting the claim that Hamas has committed acts of genocide. It mainly discusses broader accusations and does not explicitly address specific actions or definitions related to genocide by Hamas.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Hamas has committed acts of genocide.",
+          "text": "A clear and unambiguous declaration that Hamas has committed acts of genocide, crimes against humanity, and war crimes against the Jewish people and the State ...",
+          "url": "https://foreignaffairs.house.gov/press-release/mccaul-declares-hamas-committed-acts-of-genocide-crimes-against-humanity-war-crimes-calls-upon-state-department-to-determine-same/",
+          "reasoning": "The evidence references a declaration that Hamas has committed acts of genocide, crimes against humanity, and war crimes. However, this statement appears to be a political or official declaration rather than the result of a judicial determination or a presentation of factual events that conclusively prove genocide as defined in international law. Therefore, while the evidence shows that there are credible accusations or official positions alleging genocide by Hamas, it does not provide direct evidence that proves the claim as a fact. It supports the claim to the extent that such allegations have been made, but does not confirm the factual veracity. Thus, the relationship is SUPPORTS.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas has committed acts of genocide.",
+          "text": "A clear and unambiguous declaration that Hamas has committed acts of genocide, crimes against humanity, and war crimes against the Jewish people and the State ...",
+          "url": "https://foreignaffairs.house.gov/press-release/mccaul-declares-hamas-committed-acts-of-genocide-crimes-against-humanity-war-crimes-calls-upon-state-department-to-determine-same/",
+          "reasoning": "The evidence consists of a declaration made by Representative McCaul stating that Hamas has committed acts of genocide, crimes against humanity, and war crimes against the Jewish people and the State. However, the evidence does not cite any legal ruling, internationally recognized authority, or established investigation confirming the commission of genocide. Rather, it is a political statement or accusation. Therefore, while it is relevant to the claim, it does not provide definitive support but rather shows that the claim has been made by some authorities.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas has committed acts of genocide.",
+          "text": "TIME spoke to several experts about the meaning of genocide and whether the current conflict could be labeled as such. Here's what they said.",
+          "url": "https://time.com/6334409/is-whats-happening-gaza-genocide-experts/",
+          "reasoning": "The evidence discusses experts' opinions on whether the current conflict can be labeled as genocide, but does not specifically state that Hamas has committed acts of genocide or directly provide evidence regarding Hamas's actions. It refers to a broader debate and analysis of terminology rather than confirming or denying the claim about Hamas.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Hamas has committed acts of genocide.",
+          "text": "7 massacre by Hamas in Israel has been unrelenting. A common, libelous trope among the haters is that Israel is committing genocide in Gaza ...",
+          "url": "https://www.ajc.org/news/genocide-and-hamas-go-hand-in-hand",
+          "reasoning": "The evidence provided discusses a 'massacre by Hamas in Israel' and references the accusation that Israel is committing genocide in Gaza. However, it does not directly address or provide evidence that Hamas has committed acts of genocide. While the source uses pointed language against Hamas and includes the statement 'genocide and Hamas go hand-in-hand' in its URL, there is no substantive or explicit evidence in the text itself supporting the claim. Therefore, the evidence is not directly relevant to the claim.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 7,
+      "claim": "Hamas slaughtered Israelis and Americans.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (This statement asserts that Hamas killed people from these nationalities; it can be checked for accuracy using reliable reports and documentation.)",
+      "origin_text": "that slaughtered,",
+      "start": 226,
+      "end": 243,
+      "queries": [
+        "Hamas slaughtered Israelis and Americans.",
+        "Did Hamas kill Israelis?",
+        "Did Hamas kill Americans?"
+      ],
+      "evidences": [
+        {
+          "claim": "Hamas slaughtered Israelis and Americans.",
+          "text": "The brutal execution of six hostages by Hamas in late August has heightened the urgency to free the 100+ hostages still held by the terror group nearly a year after the October 7 massacre that left 1,200 people dead and over 254 kidnapped.\u00a0Among the six was Hersh Goldberg-Polin, an Israeli-American\u00a0whose courageous parents have actively drawn attention to his story and the plight of all hostages. Before Israeli forces recovered his body, he was\u00a0one of eight living or deceased American hostages still in Hamas captivity.\u00a0Hersh is among dozens of Americans killed by Hamas, which has a long history of murdering U.S. nationals dating back  ...",
+          "url": "https://www.ajc.org/news/how-many-americans-have-been-killed-by-hamas-before-and-after-october-7",
+          "reasoning": "The evidence discusses the execution by Hamas of hostages, including Hersh Goldberg-Polin, who is identified as an Israeli-American. It also states that dozens of Americans have been killed by Hamas, and mentions the October 7 massacre that resulted in 1,200 deaths. This supports the claim that Hamas slaughtered both Israelis and Americans.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas slaughtered Israelis and Americans.",
+          "text": "An estimated 1,139 people were killed in Israel during the Hamas-led attacks on October 7, 2023, and more than 200 were taken captive. 48 ...",
+          "url": "https://www.aljazeera.com/news/liveblog/2025/5/12/live-israel-pounds-gaza-killing-26-hamas-to-release-us-israeli-captive",
+          "reasoning": "The evidence states that an estimated 1,139 people were killed in Israel during the Hamas-led attacks on October 7, 2023. It also mentions that more than 200 were taken captive and references the release of a US-Israeli captive, suggesting that at least one American was among the victims or captives. This supports the claim that both Israelis and Americans were affected by Hamas's actions, including killings.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas slaughtered Israelis and Americans.",
+          "text": "Hamas said Sunday that the last living American hostage in Gaza, Edan Alexander, will be released as part of efforts to establish a ceasefire, reopen crossings into the Israeli-blockaded territory and resume the delivery of aid. Two Hamas officials told The Associated Press they expect the release in the next 48 hours.\nU.S. President Donald Trump\u2019s envoy Steve Witkoff confirmed late Sunday in a message to AP that Hamas had agreed to release Alexander as a good will gesture toward Trump.\nThe announcement of the first hostage release since Israel shattered a ceasefire in March comes shortly before Trump visits the Middle East thi ...",
+          "url": "https://www.pbs.org/newshour/world/israeli-airstrikes-kill-15-people-mostly-women-and-children-across-gaza",
+          "reasoning": "The evidence discusses negotiations and expectations that Hamas will release an American hostage, as well as Israeli airstrikes in Gaza. However, it does not provide any information about Hamas slaughtering Israelis or Americans. The focus is mainly on hostage release and airstrikes, not on massacres or killings perpetrated by Hamas. Therefore, the evidence is irrelevant to the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Hamas slaughtered Israelis and Americans.",
+          "text": "Did Hamas kill Israelis?\nAnswer: On 7 October 2023, Hamas-led militant groups launched a surprise attack on Israel, in which 1,195 Israelis and foreign nationals, including 815 civilians, were killed, and 251 taken hostage with the stated goal of forcing Israel to release Palestinian prisoners.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that on 7 October 2023, Hamas-led militant groups launched an attack in which 1,195 Israelis and foreign nationals were killed, including 815 civilians. Since it explicitly refers to foreign nationals but does not specifically mention Americans being among the victims, the evidence supports the first part of the claim (that Hamas killed Israelis), but it does not directly confirm the killing of Americans. Thus, the evidence partially supports the claim but lacks information about Americans specifically.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas slaughtered Israelis and Americans.",
+          "text": "Did Hamas kill Americans?\nAnswer: A year ago today, on October 7, 2023, Hamas perpetrated the worst terrorist attack in Israel's history. On the Jewish holy day of Simchat Torah, Hamas murdered some 1,200 civilians, including more than 40 American citizens, and took 251 more innocent people hostage, including 12 Americans.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence clearly states that on October 7, 2023, Hamas murdered about 1,200 civilians, including more than 40 American citizens, during an attack in Israel. This directly supports the claim that Hamas slaughtered Israelis and Americans.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 8,
+      "claim": "Hamas raped some victims during attacks.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (This is a specific claim about actions allegedly committed by Hamas, which can be investigated with evidence and reports.)",
+      "origin_text": "raped,",
+      "start": 244,
+      "end": 250,
+      "queries": [
+        "Hamas raped some victims during attacks.",
+        "Is there credible evidence that Hamas committed rape during attacks?"
+      ],
+      "evidences": [
+        {
+          "claim": "Hamas raped some victims during attacks.",
+          "text": "The BBC has seen and heard evidence of rape, sexual violence and mutilation of women during the 7 October Hamas attacks.WARNING: CONTAINS EXTREMELY GRAPHIC DESCRIPTIONS OF SEXUAL VIOLENCE AND RAPESeveral people involved in collecting and identifying the bodies of those killed in the attack told us they had seen multiple signs of sexual assault, including broken pelvises, bruises, cuts and tears, and that the victims ranged from children and teenagers to pensioners.Video testimony of an eyewitness at the Nova music festival, shown to journalists by Israeli police, detailed the gang rape, mutilation and execution o ...",
+          "url": "https://www.bbc.com/news/world-middle-east-67629181",
+          "reasoning": "The evidence presented includes direct reporting of credible sources (e.g., BBC) who have seen and heard evidence of rape, sexual violence, and mutilation committed during the October 7 Hamas attacks. It cites testimony from those involved in identifying bodies and describes specific physical signs indicative of sexual assault, as well as eyewitness video testimony detailing rape. This directly supports the claim that Hamas raped some victims during the attacks.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas raped some victims during attacks.",
+          "text": "During the October 7 Hamas-led attack on Israel, Israeli women, girls and men were reportedly subject to sexual violence, including rape and sexual assault by Hamas or other Gazan militants.[1] \nThe extent of sexual violence perpetrated by militants, and whether it was planned and weaponised by the attackers, has been the subject of intense debate and controversy.[2][3][4][5] Initially said to be \"dozens\" by Israeli authorities, they later clarified they could not provide a number.[6] The militants involved in the attack are accused of having committed acts of gender-based violence, war crimes, and crimes against humanity.[7][8] Hamas has denied that  ...",
+          "url": "https://en.wikipedia.org/wiki/Sexual_and_gender-based_violence_in_the_October_7_Hamas-led_attack_on_Israel",
+          "reasoning": "The evidence discusses reports and accusations of sexual violence, including rape, allegedly committed by Hamas or other Gazan militants during the October 7 attack. It notes that there have been initial claims of such acts, but the extent, exact numbers, and the identity of perpetrators have been debated and remain controversial. Israeli authorities initially claimed dozens of cases but later clarified they could not provide a number. Hamas has denied the accusations. Because the evidence describes accusations and debates about the events, but does not provide conclusive evidence that rapes definitely occurred, it neither definitively supports nor clearly refutes the claim. However, since there are multiple sources reporting accusations specifically of rape, the evidence leans toward supporting the claim that some victims were raped during the attacks, despite ongoing controversy and lack of specific numbers.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas raped some victims during attacks.",
+          "text": "A Times investigation uncovered new details showing a pattern of rape, mutilation and extreme brutality against women in the attacks on Israel.Gal Abdush\u2019s parents, center, and her sisters. The photograph on the wall shows Gal and her husband, Nagi. The couple had been together since they were teenagers.Credit...Supported bySKIP ADVERTISEMENTShare full article852852By Jeffrey GettlemanAnat Schwartz and Adam SellaPhotographs by Avishag Shaar-YashuvJeffrey Gettleman, Anat Schwartz and Adam Sella reported from across Israel and interviewed more than 150 people.Published Dec. 28, 2023Updated March 25, 2024At first, she was known simply as  ...",
+          "url": "https://www.nytimes.com/2023/12/28/world/middleeast/oct-7-attacks-hamas-israel-sexual-violence.html",
+          "reasoning": "The evidence references a Times investigation that uncovered new details indicating a 'pattern of rape, mutilation and extreme brutality against women in the attacks on Israel.' This reporting supports the claim that Hamas raped some victims during the attacks, as it specifically mentions rape as one of the crimes committed. The source appears credible, being from a reputable news outlet that conducted extensive interviews and reporting.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas raped some victims during attacks.",
+          "text": "... evidence that Hamas militants committed sexual assault during ... the executive director of The Association of Rape Crisis Centers in Israel.",
+          "url": "https://www.pbs.org/newshour/world/how-2-debunked-accounts-of-sexual-violence-on-oct-7-fueled-a-global-dispute-over-israel-hamas-war",
+          "reasoning": "The evidence mentions that there is evidence suggesting Hamas militants committed sexual assault, citing the executive director of The Association of Rape Crisis Centers in Israel. However, it also references a context where some accounts of sexual violence on October 7 were debunked, indicating there is controversy and dispute over the claims. The evidence supports the claim by stating the existence of such allegations and referencing the position of a relevant authority in Israel.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas raped some victims during attacks.",
+          "text": "During the October 7 Hamas-led attack on Israel, Israeli women, girls and men were reportedly subject to sexual violence, including rape and sexual assault by Hamas or other Gazan militants.[1] \nThe extent of sexual violence perpetrated by militants, and whether it was planned and weaponised by the attackers, has been the subject of intense debate and controversy.[2][3][4][5] Initially said to be \"dozens\" by Israeli authorities, they later clarified they could not provide a number.[6] The militants involved in the attack are accused of having committed acts of gender-based violence, war crimes, and crimes against humanity.[7][8] Hamas has denied that  ...",
+          "url": "https://en.wikipedia.org/wiki/Sexual_and_gender-based_violence_in_the_October_7_Hamas-led_attack_on_Israel",
+          "reasoning": "The evidence discusses reports and accusations of sexual violence, including rape, allegedly committed by Hamas or other Gazan militants during the October 7 attack. It notes that the extent of such acts is debated and controversial, and while initial claims were made about the number of cases, Israeli authorities later stated they could not provide a specific number. Hamas has denied the accusations. Despite denials and debates about the scale, the evidence confirms that some sources and authorities allege that rape occurred. Therefore, the evidence supports the claim that Hamas raped some victims during the attacks, although quantification and full corroboration are contested.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas raped some victims during attacks.",
+          "text": "... rape and gang-rape \u2014 occurred across multiple locations of Israel and the Gaza periphery during the attacks on 7 October 2023, a senior ...",
+          "url": "https://press.un.org/en/2024/sc15621.doc.htm",
+          "reasoning": "The evidence mentions that rape and gang-rape occurred across multiple locations in Israel and the Gaza periphery during the attacks on 7 October 2023. The context of the evidence connects these acts to the attacks, which is consistent with the claim stating that Hamas raped some victims during attacks. Therefore, the evidence supports the claim.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 9,
+      "claim": "Hamas brutalized Israelis and Americans.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (Despite 'brutalized' being somewhat subjective, the core factual claim about harm to specific groups by Hamas can be verified via reports and eyewitness accounts.)",
+      "origin_text": "and brutalized Israelis and Americans",
+      "start": 251,
+      "end": 288,
+      "queries": [
+        "Hamas brutalized Israelis and Americans.",
+        "Did Hamas brutalize Israelis?",
+        "Did Hamas brutalize Americans?"
+      ],
+      "evidences": [
+        {
+          "claim": "Hamas brutalized Israelis and Americans.",
+          "text": "Hamas brutalized Israelis and Americans.\nAnswer: More than 1,300 people slaughtered in Israel, including at least 32 American citizens. Scores of innocents \u2014 from infants to elderly grandparents, Israelis, Americans \u2014 taken hostage. As I told the families of Americans being held captive by Hamas, we're pursuing every avenue to bring their loved ones home.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence reports that more than 1,300 people were slaughtered in Israel, including at least 32 American citizens, and that innocents (including Israelis and Americans) were taken hostage. This directly affirms that Hamas brutalized both Israelis and Americans, explicitly mentioning violence and hostages among the specified groups.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas brutalized Israelis and Americans.",
+          "text": "Hamas attacked Israel on 7 October 2023, killing about 1200 people and taking over 250 hostages.",
+          "url": "https://www.bbc.com/news/world-middle-east-67039975",
+          "reasoning": "The evidence states that Hamas attacked Israel on 7 October 2023, killing about 1200 people and taking over 250 hostages. These acts can be interpreted as brutalization. The claim also mentions Americans; while the evidence does not specifically mention Americans, it is widely reported by credible sources that American citizens were among those killed or taken hostage in the attack. Therefore, the evidence supports the claim that Hamas brutalized Israelis and Americans.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas brutalized Israelis and Americans.",
+          "text": "A Times investigation uncovered new details showing a pattern of rape, mutilation and extreme brutality against women in the attacks on Israel.Gal Abdush\u2019s parents, center, and her sisters. The photograph on the wall shows Gal and her husband, Nagi. The couple had been together since they were teenagers.Credit...Supported bySKIP ADVERTISEMENTShare full article852852By Jeffrey GettlemanAnat Schwartz and Adam SellaPhotographs by Avishag Shaar-YashuvJeffrey Gettleman, Anat Schwartz and Adam Sella reported from across Israel and interviewed more than 150 people.Published Dec. 28, 2023Updated March 25, 2024At first, she was known simply as  ...",
+          "url": "https://www.nytimes.com/2023/12/28/world/middleeast/oct-7-attacks-hamas-israel-sexual-violence.html",
+          "reasoning": "The evidence details a Times investigation that uncovered a pattern of rape, mutilation, and extreme brutality during attacks on Israel, which are attributed to Hamas. The reporting involved more than 150 interviews and documents attacks against Israelis. However, the evidence does not specifically mention Americans being brutalized; it only clearly supports the aspect of Israelis being victims of brutality. Therefore, while the evidence supports the claim that Hamas brutalized Israelis, it does not provide clear support regarding Americans.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas brutalized Israelis and Americans.",
+          "text": "On October 7, 2023, Hamas terrorists waged the deadliest attack on Jews since the Holocaust \u2014 slaughtering babies, committing sexual violence, burning whole families alive, and taking 240 civilians hostage. Hamas murdered more than 1,200 Israelis during the attack. Over a year later, Hamas is still holding over 50 men and women \u2014 including five Americans \u2014 captive in the terror tunnels in Gaza.\nIsrael continues to fight for its survival, battling a seven front war against the Iranian regime and its terror proxies Hezbollah, Houthis, and Hamas, and more.\nFollow AJC on social media for updates, and receive our regular news briefing straight to your in ...",
+          "url": "https://www.ajc.org/IsraelHamasWar",
+          "reasoning": "The evidence details that Hamas committed acts such as murder, hostage-taking, and other forms of violence against Israelis, and that Americans remain among those held captive by Hamas. It specifically mentions murders and hostage-taking involving both Israelis and Americans. These actions fit the definition of 'brutalization.' Therefore, the evidence supports the claim.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas brutalized Israelis and Americans.",
+          "text": "The brutal execution of six hostages by Hamas in late August has heightened the urgency to free the 100+ hostages still held by the terror group nearly a year after the October 7 massacre that left 1,200 people dead and over 254 kidnapped.\u00a0Among the six was Hersh Goldberg-Polin, an Israeli-American\u00a0whose courageous parents have actively drawn attention to his story and the plight of all hostages. Before Israeli forces recovered his body, he was\u00a0one of eight living or deceased American hostages still in Hamas captivity.\u00a0Hersh is among dozens of Americans killed by Hamas, which has a long history of murdering U.S. nationals dating back  ...",
+          "url": "https://www.ajc.org/news/how-many-americans-have-been-killed-by-hamas-before-and-after-october-7",
+          "reasoning": "The evidence details brutal acts by Hamas, including the execution of hostages after the October 7 massacre, which resulted in the deaths and kidnappings of both Israelis and Americans. It also states that dozens of Americans have been killed by Hamas, and one of the executed hostages was an Israeli-American. This directly supports the claim that Hamas brutalized both Israelis and Americans.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas brutalized Israelis and Americans.",
+          "text": "Defendants are senior leaders of Hamas responsible for planning, supporting, and perpetrating Hamas's October 7 terrorist attacks in Israel.",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-announces-terrorism-charges-against-senior-leaders-hamas",
+          "reasoning": "The evidence states that senior leaders of Hamas are responsible for planning, supporting, and perpetrating Hamas's October 7 terrorist attacks in Israel. While it does not explicitly use the term 'brutalized,' the context of terrorist attacks generally implies brutality against the victims. The evidence mentions the attacks occurred in Israel, but it does not specifically mention Americans as victims. Therefore, while the evidence supports the part of the claim concerning Israelis, it does not provide information regarding brutality against Americans. Thus, the evidence partially supports the claim as it relates to Israelis but is silent regarding Americans.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Hamas brutalized Israelis and Americans.",
+          "text": "Hamas' military wing \u2013 the Qassam Brigades \u2013 and at least four other Palestinian armed groups committed numerous war crimes and crimes ...",
+          "url": "https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups",
+          "reasoning": "The evidence states that Hamas' military wing and other Palestinian armed groups committed numerous war crimes and crimes, as reported by Human Rights Watch. While it is not explicit in this excerpt that the victims include Israelis and Americans, the widely known context of the October 7 attacks and the linked source suggests targeting of Israeli civilians, and it is documented that Americans were also among the victims. Thus, the evidence provides credible support for the claim.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 10,
+      "claim": "Videos of Hamas's actions are not shown by some media.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (This is an assertion about media practices regarding video broadcasting, which can be investigated by reviewing media coverage.)",
+      "origin_text": "in ways so horrific the videos cannot be shown by our media.",
+      "start": 289,
+      "end": 349,
+      "queries": [
+        "Videos of Hamas's actions are not shown by some media.",
+        "Are videos of Hamas's actions shown by all media outlets?",
+        "Which media outlets do not show videos of Hamas's actions?"
+      ],
+      "evidences": [
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "Israeli Prime Minister Benjamin Netanyahu has repeatedly stated that Israel seeks \"total victory\" over Hamas, including by destroying Hamas's military and ...",
+          "url": "https://www.congress.gov/crs-product/R47828",
+          "reasoning": "The evidence discusses the Israeli Prime Minister's statements and the goals regarding Hamas but does not mention anything about videos of Hamas's actions or media coverage policies. Therefore, it neither supports nor refutes the claim and is irrelevant.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "Five armed Palestinian groups joined Hamas in the deadly 7 October attack on Israel after training together in military-style exercises from 2020 onwards, BBC News analysis shows.The groups carried out joint drills in Gaza which closely resembled the tactics used during the deadly assault - including at a site less than 1km (0.6 miles) from the barrier with Israel - and posted them on social media. They practised hostage-taking, raiding compounds and breaching Israel's defences during these exercises, the last of which was held just 25 days before the attack.BBC Arabic and BBC Verify have collated evidence which shows how Hamas brought together G ...",
+          "url": "https://www.bbc.com/news/world-middle-east-67480680",
+          "reasoning": "The evidence details that Hamas and other groups conducted military-style exercises and posted videos of these exercises on social media. It also states that BBC Arabic and BBC Verify have collected evidence of these activities to demonstrate Hamas's preparations. However, the evidence does not mention whether any media outlets have refused to show videos of Hamas's actions. Therefore, the evidence is irrelevant to the claim about some media not showing videos of Hamas's actions.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "A slew of misinformation, disinformation and conspiracy theories about the ongoing conflict are percolating on social media.",
+          "url": "https://www.adl.org/resources/article/adl-debunk-myths-and-false-narratives-about-israel-hamas-war",
+          "reasoning": "The evidence discusses misinformation, disinformation, and conspiracy theories related to the conflict on social media, but does not mention whether or not videos of Hamas's actions are being shown or withheld by some media outlets. Therefore, the evidence is irrelevant to the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "REALITY: There is no evidence that these images were staged. Photos and videos showing Hamas murdering Israeli civilians have been verified by ...",
+          "url": "https://www.adl.org/resources/article/adl-debunk-myths-and-false-narratives-about-israel-hamas-war",
+          "reasoning": "The evidence confirms that videos and images showing Hamas's actions have been verified, but it does not address whether some media outlets choose to show or not to show these videos. Therefore, the evidence is irrelevant to the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "In the days since Hamas militants stormed into Israel, a flood of videos and photos purporting to show the conflict have filled social media.",
+          "url": "https://apnews.com/article/israel-hamas-gaza-misinformation-fact-check-e58f9ab8696309305c3ea2bfb269258e",
+          "reasoning": "The evidence states that videos and photos supposedly showing the conflict have been widely shared on social media, but it does not provide information about whether some media outlets choose not to show videos of Hamas's actions. Therefore, the evidence is irrelevant to the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "Hamas's footage displays little comprehension of the audience in Israel and the West, yet to Palestinians and other Arab viewers it served its purpose.",
+          "url": "https://www.newyorker.com/news/news-desk/the-hamas-propaganda-war",
+          "reasoning": "The evidence discusses the impact and reception of Hamas's footage among different audiences (Israeli, Western, Palestinian, Arab viewers), but it does not address whether some media outlets choose not to show videos of Hamas's actions. It is focused on audience interpretation rather than media coverage decisions.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "Hamas has been banned from most social media platforms, although content from the group still circulates on sites like Telegram. In Gaza, local content creators documented their experiences, gaining significant followings.\nIn Israel, social media has been used to garner support for military actions, with the government running ads portraying Hamas negatively. Some Israeli influencers and content creators have mocked and dehumanized Palestinians, leading to widespread criticism. Videos posted by Israeli soldiers showing abuse and destruction in Gaza have gone viral, prompting international condemnation and internal investigations by the Israel Defence Force ...",
+          "url": "https://en.wikipedia.org/wiki/Media_coverage_of_the_Gaza_war",
+          "reasoning": "The evidence discusses the presence of Hamas content on social media platforms, noting that Hamas has been banned from most social media platforms but that some content still circulates on sites like Telegram. However, the evidence does not specifically address whether videos of Hamas's actions are not shown by some media outlets, nor does it mention traditional media channels or describe any explicit refusal by media to show Hamas's actions. Therefore, the evidence does not directly support or refute the claim and is irrelevant.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "Media reports of the Israeli-Palestinian conflict often frame both sides as being equivalent and engaged in a tit-for-tat cycle of violence. However, there is simply no moral equivalence between the two sides, in fact, there are not only two sides as the Palestinian side is split between Hamas, the de facto ruler of Gaza, and the Fatah-run Palestinian Authority, which controls portions of the West Bank. Israel is a free and democratic sovereign state that does everything to minimize civilian casualties. Hamas is an Iranian-backed terrorist organization that openly seeks the destruction of Israel. Hamas actively seeks out Israeli civ ...",
+          "url": "https://www.ajc.org/news/what-to-know-about-media-bias-in-coverage-of-hamas-attack-on-israel",
+          "reasoning": "The evidence discusses media bias in coverage of Hamas and Israel and details the framing of both sides, differences between Hamas and Fatah, and Israel's attempts to minimize civilian casualties. However, the evidence does not specifically mention whether videos of Hamas's actions are shown or not shown by any media outlets. Therefore, the evidence is irrelevant to the claim about the media showing or withholding videos of Hamas's actions.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Videos of Hamas's actions are not shown by some media.",
+          "text": "Major outlets like Reuters, CNN, and AP are relying on vague social media clips or skipping coverage altogether. Why? Because Hamas controls what gets seen, what gets filmed, and what gets shared. When there\u2019s no media freedom, there\u2019s no full picture.\n\t\t\t\t\t\t\t\t\tImage Credit: Yahya Hassouna/AFP via Getty Images\t\t\t\t\t\t\t\t\nRelated \n\t\t\t\tAmerican Campuses in the Heat of the Israeli-Palestinian Conflict\t\t\t\n\t\t\t\tHarvard\u2019s Report Is Finally Enough for Media to Admit Antisemitism Exists on Campus\u2026 Or Is It?\t\t\t\n\t\t\t\tStarvation in Gaza?: The Truth Behind the Headlines\t\t\t\n\t\t\t\tHasan Piker: How a Jew-Hating, Hamas-Lovi ...",
+          "url": "https://honestreporting.com/the-footage-hamas-doesnt-want-you-to-see/",
+          "reasoning": "The evidence discusses how major news outlets such as Reuters, CNN, and AP are either relying on vague social media clips or skipping coverage of Hamas's actions altogether, largely because access and information are controlled by Hamas. This implies that some videos or footage of Hamas's actions are not being shown by certain media. Therefore, the evidence supports the claim.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 11,
+      "claim": "Saudi Arabia funded Al-Qaeda.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement asserts a specific financial relationship between Saudi Arabia and Al-Qaeda which can be checked with reports and official investigations.)",
+      "origin_text": " 3. Saudi Arabia funded Al-Qaeda",
+      "start": 350,
+      "end": 382,
+      "queries": [
+        "Saudi Arabia funded Al-Qaeda.",
+        "Did Saudi Arabia fund Al-Qaeda?"
+      ],
+      "evidences": [
+        {
+          "claim": "Saudi Arabia funded Al-Qaeda.",
+          "text": "Saudi Arabia funded Al-Qaeda.\nAnswer: Saudi Arabia is a key part of our international efforts to fight terrorist financing. The intelligence community identified it as the primary source of money for al Qaeda both before and after the September 11 attacks.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that the intelligence community identified Saudi Arabia as the primary source of money for Al-Qaeda both before and after the September 11 attacks. This directly supports the claim that Saudi Arabia funded Al-Qaeda.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Saudi Arabia funded Al-Qaeda.",
+          "text": "Before the September 11, 2001 terrorist attacks, and really until Al Qaeda began to attack the Kingdom directly in May 2003, Saudi Arabia was often uncooperative on counterterrorism and more part of the problem than part of the solution. Since 2003, the Saudi regime has emerged as a vital counterterrorism partner, and several important successes against Al Qaeda in particular are due in large part to Saudi cooperation. Complicating this picture, however, is that much of Saudi \u2018support\u2019 for terrorism involves actors outside the Saudi government: the regime has at times supported, at times deliberately ignored, and at still other times cracked d ...",
+          "url": "https://www.brookings.edu/articles/the-u-s-saudi-arabia-counterterrorism-relationship/",
+          "reasoning": "The evidence discusses Saudi Arabia's complex relationship with counterterrorism and Al-Qaeda, noting that prior to 2003, Saudi Arabia was often uncooperative with counterterrorism efforts and even 'more part of the problem than part of the solution.' It also states that much of the Saudi support for terrorism comes from actors outside the Saudi government and that the regime at times ignored, supported, or cracked down on terrorism. However, the evidence does not explicitly state that the Saudi government funded Al-Qaeda; instead, it highlights indirect support or lack of action and the involvement of non-governmental Saudi actors. Therefore, the evidence is inconclusive regarding direct government funding of Al-Qaeda and does not clearly support or refute the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia funded Al-Qaeda.",
+          "text": "After the September 11 attacks, the highest-level U.S. government officials publicly declared that the fight against al Qaeda financing was as critical as ...",
+          "url": "https://9-11commission.gov/staff_statements/911_TerrFin_Ch1.pdf",
+          "reasoning": "The evidence discusses U.S. government statements declaring the fight against al Qaeda financing to be critical after the September 11 attacks, but it does not mention Saudi Arabia's involvement in funding al Qaeda. Therefore, the evidence is irrelevant to the specific claim that Saudi Arabia funded al-Qaeda.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia funded Al-Qaeda.",
+          "text": "The CIA estimates that it cost al Qaeda about $30 million per year to sustain its activities before 9/11, an amount raised almost entirely through donations.",
+          "url": "https://icct.nl/sites/default/files/import/publication/911_TerrFin_Ch2.pdf",
+          "reasoning": "The evidence indicates that Al-Qaeda's activities prior to 9/11 were funded by donations totaling about $30 million per year. However, it does not specify the sources of these donations or mention Saudi Arabia explicitly or implicitly as a funder. Thus, the evidence does not confirm or deny the claim that Saudi Arabia funded Al-Qaeda.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 12,
+      "claim": "Saudi Arabia funded the September 11 attacks.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement claims a specific connection between Saudi Arabia's funding and the 9/11 attacks; this is a verifiable claim through investigative records and official reports.)",
+      "origin_text": "and 9/11,",
+      "start": 383,
+      "end": 392,
+      "queries": [
+        "Saudi Arabia funded the September 11 attacks.",
+        "Who funded the September 11 attacks?"
+      ],
+      "evidences": [
+        {
+          "claim": "Saudi Arabia funded the September 11 attacks.",
+          "text": "Saudi Arabia funded the September 11 attacks.\nAnswer: Saudi Arabia is a key part of our international efforts to fight terrorist financing. The intelligence community identified it as the primary source of money for al Qaeda both before and after the September 11 attacks.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that Saudi Arabia was identified as the primary source of money for al Qaeda both before and after the September 11 attacks. While it does not say directly that Saudi Arabia funded the 9/11 attacks specifically, it strongly implies financial connections to al Qaeda, the group responsible for the attacks. Thus, the evidence supports the claim, but with some nuance.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Saudi Arabia funded the September 11 attacks.",
+          "text": "After the September 11 attacks, the highest-level U.S. government officials publicly declared that the fight against al Qaeda financing was as critical as ...",
+          "url": "https://9-11commission.gov/staff_statements/911_TerrFin_Ch1.pdf",
+          "reasoning": "The evidence discusses the importance the US government placed on combating al Qaeda financing after the September 11 attacks but does not mention Saudi Arabia's involvement or funding in relation to the attacks. Therefore, the evidence is not relevant to the claim about Saudi Arabia funding the September 11 attacks.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia funded the September 11 attacks.",
+          "text": "At around 9:30 pm on September 11, 2001, George Tenet, director of the Central Intelligence Agency (CIA), told President George W. Bush and U.S. senior ...",
+          "url": "https://en.wikipedia.org/wiki/Responsibility_for_the_September_11_attacks",
+          "reasoning": "The provided evidence snippet mentions a meeting between CIA Director George Tenet and President George W. Bush on September 11, 2001, but does not discuss any financial ties or funding by Saudi Arabia in relation to the September 11 attacks. There is no information in the evidence that addresses, supports, or refutes the claim about Saudi Arabian involvement in funding the attacks.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia funded the September 11 attacks.",
+          "text": "The centerpieces of the complex were the Twin Towers. On September 11, 2001, the entire complex was destroyed in a terrorist attack that has come to be referred to as \u201c9/11.\u201d\nWas this information helpful? Yes|No\nWhat were the Twin Towers?\nRead Full FAQ\nThe Twin Towers were the tallest buildings in New York City. At 110 stories each, 1 WTC (North Tower) and 2 WTC (South Tower) provided nearly 10 million square feet of office space for about 35,000 people and 430 companies. For a brief period upon their completion in 1973, they were the tallest buildings in the world. They attracted roughly 70,000 commuters and tourists daily.\nThe towers were  ...",
+          "url": "https://www.911memorial.org/911-faqs",
+          "reasoning": "The evidence provided gives background information about the Twin Towers, their destruction during the September 11, 2001, attacks, and some general context about the event. However, it does not mention any details regarding the funding of the attacks or any involvement by Saudi Arabia. Therefore, the evidence is irrelevant to the specific claim about Saudi Arabian funding.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 13,
+      "claim": "The September 11 attacks killed over 2,000 Americans.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (This is a factual statement about the number and nationality of casualties, which can be checked with historical and official records.)",
+      "origin_text": "slaughtering over 2000 Americans.",
+      "start": 393,
+      "end": 426,
+      "queries": [
+        "The September 11 attacks killed over 2,000 Americans.",
+        "How many Americans were killed in the September 11 attacks?"
+      ],
+      "evidences": [
+        {
+          "claim": "The September 11 attacks killed over 2,000 Americans.",
+          "text": "The September 11 attacks killed over 2,000 Americans.\nAnswer: The 9/11 terrorist attacks killed 2,977 people and injured thousands at the World Trade Center, the Pentagon, and in Somerset County, Pennsylvania.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that the 9/11 attacks killed 2,977 people, which is more than 2,000. This directly supports the claim that the attacks killed over 2,000 Americans.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "The September 11 attacks killed over 2,000 Americans.",
+          "text": "How many Americans were killed in the September 11 attacks?\nAnswer: They were the most lethal terrorist attacks in history, taking the lives of nearly 3,000 Americans and international citizens and ultimately leading to far-reaching changes in anti-terror approaches and operations in the U.S. and around the globe.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that the September 11 attacks resulted in the deaths of nearly 3,000 Americans and international citizens. Although it does not specify the exact number of Americans, it suggests that the number of Americans killed was included in this nearly 3,000. Since the claim is that over 2,000 Americans were killed, and the evidence says 'nearly 3,000 Americans and international citizens,' it is reasonable to conclude that the number of Americans killed was over 2,000, supporting the claim.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 14,
+      "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (The statement asserts the absence of an official apology for a specific action; this is verifiable through public records and official Saudi statements.)",
+      "origin_text": "It still hasn\u2019t even apologized.",
+      "start": 427,
+      "end": 459,
+      "queries": [
+        "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+        "Has Saudi Arabia funded Al-Qaeda or the September 11 attacks?",
+        "Has Saudi Arabia apologized for funding Al-Qaeda or the September 11 attacks?"
+      ],
+      "evidences": [
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "After the September 11 attacks, the highest-level U.S. government officials publicly declared that the fight against al Qaeda financing was as critical as ...",
+          "url": "https://9-11commission.gov/staff_statements/911_TerrFin_Ch1.pdf",
+          "reasoning": "The evidence discusses U.S. government officials\u2019 stance on fighting al Qaeda financing after the September 11 attacks but does not address whether Saudi Arabia has apologized for funding Al-Qaeda or the September 11 attacks. Therefore, the evidence is irrelevant to the specific claim made.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "The FBI has learned since the September 11, 2001, terrorist attacks about the patterns of financing associated with Al Qaeda and global terrorist networks.",
+          "url": "https://www.fbi.gov/news/testimony/financing-patterns-associated-with-al-qaeda-and-global-terrorist-networks",
+          "reasoning": "The evidence discusses the FBI's knowledge about the financing patterns associated with Al Qaeda and global terrorist networks following the September 11 attacks. However, it does not mention Saudi Arabia apologizing or not apologizing for funding Al-Qaeda or the September 11 attacks. The evidence provides context on terrorist financing but does not address the claim directly.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "Since the September 11 attacks in the United States in 2001, allegations of Saudi government involvement in the attacks have been made, with Saudi Arabia regularly denying such claims.\nThe 9/11 Commission Report, issued by the 9/11 Commission on July 22, 2004, \"found no evidence that the Saudi government as an institution or senior Saudi officials individually funded Al-Qaeda\" to conspire in the attacks,[1] or that it funded the attackers; however, according to the BBC, the report identified Saudi Arabia as the primary funding location for Al-Qaeda,[2] and that 15 of the 19 hijackers were Saudi citizens.[3]\nIn 2012, the FBI stated that it had eviden ...",
+          "url": "https://en.wikipedia.org/wiki/Alleged_Saudi_role_in_the_September_11_attacks",
+          "reasoning": "The evidence discusses allegations of Saudi government involvement in funding Al-Qaeda and the September 11 attacks, and notes regular Saudi denials of such claims. It references the 9/11 Commission report, which found no evidence of official Saudi government or senior official funding, although it did note that Saudi Arabia was a primary funding location for Al-Qaeda. Nowhere in the evidence is there any indication that Saudi Arabia has issued an apology for funding Al-Qaeda or the 9/11 attacks. The evidence actually suggests denial rather than an apology. Therefore, the evidence supports the claim that Saudi Arabia has not apologized for funding Al-Qaeda or the September 11 attacks.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "... has a long way to go. Before the September 11, 2001 terrorist attacks, and really until Al Qaeda began to attack the Kingdom directly in May 2003, Saudi Arabia ...",
+          "url": "https://www.brookings.edu/articles/the-u-s-saudi-arabia-counterterrorism-relationship/",
+          "reasoning": "The evidence discusses Saudi Arabia's relationship with Al-Qaeda and mentions attacks on the Kingdom beginning in 2003 but does not mention anything about Saudi Arabia apologizing or not apologizing for funding Al-Qaeda or the September 11 attacks. Therefore, the evidence is irrelevant to the specific claim about Saudi Arabia's apology status.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "After the September 11 attacks, the highest-level U.S. government officials publicly declared that the fight against al Qaeda financing was as critical as ...",
+          "url": "https://9-11commission.gov/staff_statements/911_TerrFin_Ch1.pdf",
+          "reasoning": "The evidence discusses the U.S. government statements about fighting al Qaeda financing after the September 11 attacks but does not mention Saudi Arabia apologizing or not apologizing for funding Al-Qaeda or the September 11 attacks. There is no information in the evidence that is directly related to whether Saudi Arabia has issued an apology regarding the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "The centerpieces of the complex were the Twin Towers. On September 11, 2001, the entire complex was destroyed in a terrorist attack that has come to be referred to as \u201c9/11.\u201d\nWas this information helpful? Yes|No\nWhat were the Twin Towers?\nRead Full FAQ\nThe Twin Towers were the tallest buildings in New York City. At 110 stories each, 1 WTC (North Tower) and 2 WTC (South Tower) provided nearly 10 million square feet of office space for about 35,000 people and 430 companies. For a brief period upon their completion in 1973, they were the tallest buildings in the world. They attracted roughly 70,000 commuters and tourists daily.\nThe towers were  ...",
+          "url": "https://www.911memorial.org/911-faqs",
+          "reasoning": "The evidence provided discusses the Twin Towers and the events of September 11, 2001, including details about the buildings and the attack. However, it does not mention Saudi Arabia, its government, funding of Al-Qaeda, or any apology related to the 9/11 attacks. Therefore, the evidence is irrelevant to the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "After the September 11 attacks, the highest-level U.S. government officials publicly declared that the fight against al Qaeda financing was as critical as ...",
+          "url": "https://9-11commission.gov/staff_statements/911_TerrFin_Ch1.pdf",
+          "reasoning": "The evidence discusses the U.S. government statements about fighting al Qaeda financing after the September 11 attacks but does not mention anything about Saudi Arabia apologizing for funding Al-Qaeda or the September 11 attacks. Therefore, the evidence does not address the claim.",
+          "relationship": "IRRELEVANT"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "Since the September 11 attacks in the United States in 2001, allegations of Saudi government involvement in the attacks have been made, with Saudi Arabia regularly denying such claims.\nThe 9/11 Commission Report, issued by the 9/11 Commission on July 22, 2004, \"found no evidence that the Saudi government as an institution or senior Saudi officials individually funded Al-Qaeda\" to conspire in the attacks,[1] or that it funded the attackers; however, according to the BBC, the report identified Saudi Arabia as the primary funding location for Al-Qaeda,[2] and that 15 of the 19 hijackers were Saudi citizens.[3]\nIn 2012, the FBI stated that it had eviden ...",
+          "url": "https://en.wikipedia.org/wiki/Alleged_Saudi_role_in_the_September_11_attacks",
+          "reasoning": "The evidence discusses allegations of Saudi government involvement in funding Al-Qaeda and the September 11 attacks, and notes that Saudi Arabia has denied such claims. There is no mention in the evidence that Saudi Arabia has apologized for funding Al-Qaeda or the September 11 attacks. In fact, the focus is on denial rather than apology. Thus, the evidence supports the claim that Saudi Arabia has not apologized for such funding.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Saudi Arabia has not apologized for funding Al-Qaeda or September 11 attacks.",
+          "text": "The question of possible Saudi links to the 9/11 hijackers has haunted and soured relations between the United States and Saudi Arabia for ...",
+          "url": "https://www.wilsoncenter.org/publication/saudi-arabia-faces-the-missing-28-pages",
+          "reasoning": "The evidence discusses the issue of possible Saudi links to the 9/11 hijackers and the impact this has had on US-Saudi relations, but it does not mention whether Saudi Arabia has apologized or acknowledged funding Al-Qaeda or involvement in the September 11 attacks. Therefore, the evidence does not address or impact the truth of the claim.",
+          "relationship": "IRRELEVANT"
+        }
+      ],
+      "factuality": 1.0
+    },
+    {
+      "id": 15,
+      "claim": "Israel is considered an ally.",
+      "checkworthy": true,
+      "checkworthy_reason": "Yes (This statement is verifiable, as it refers to Israel's status in diplomatic and strategic alliances, although it would depend on the perspective of which country or group is being referenced.)",
+      "origin_text": " Israel is our ally.",
+      "start": 460,
+      "end": 480,
+      "queries": [
+        "Israel is considered an ally.",
+        "Is Israel considered an ally?",
+        "To whom is Israel considered an ally?"
+      ],
+      "evidences": [
+        {
+          "claim": "Israel is considered an ally.",
+          "text": "Israel is considered an ally.\nAnswer: Since the 1960s, the Israel\u2013U.S. relationship has grown into a close alliance in economic, strategic and military aspects.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that since the 1960s, the relationship between Israel and the U.S. has grown into a close alliance in economic, strategic, and military aspects. This supports the claim that Israel is considered an ally, particularly in an international context involving the U.S.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Israel is considered an ally.",
+          "text": "Is Israel considered an ally?\nAnswer: Israel is designated by the United States as a major non-NATO ally.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that Israel is designated by the United States as a major non-NATO ally. This supports the notion that Israel is considered an ally, at least in the context of its relationship with the United States.",
+          "relationship": "SUPPORTS"
+        },
+        {
+          "claim": "Israel is considered an ally.",
+          "text": "To whom is Israel considered an ally?\nAnswer: Israel's close friendship with the United States has been a linchpin of its foreign policy since the establishment of the state.",
+          "url": "Google Answer Box",
+          "reasoning": "The evidence states that Israel has a close friendship with the United States, describing it as a central aspect of Israel's foreign policy. This implies that Israel is considered an ally, at least to the United States, which supports the claim.",
+          "relationship": "SUPPORTS"
+        }
+      ],
+      "factuality": 1.0
+    }
+  ],
+  "summary": {
+    "num_claims": 16,
+    "num_checkworthy_claims": 16,
+    "num_verified_claims": 14,
+    "num_supported_claims": 12,
+    "num_refuted_claims": 0,
+    "num_controversial_claims": 2,
+    "factuality": 0.9719387755102041
+  }
+}
