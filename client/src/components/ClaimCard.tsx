@@ -5,25 +5,27 @@ interface ClaimCardProps {
   claim: ClaimVerificationData;
 }
 
+
+
 export default function ClaimCard({ claim }: ClaimCardProps) {
   // Calculate average factuality
-  const averageFactuality =
-    claim.claim_detail.reduce((acc, detail) => acc + detail.factuality, 0) /
-    claim.claim_detail.length;
+  // const averageFactuality =
+  //   claim.claim_detail.reduce((acc, detail) => acc + detail.factuality, 0) /
+  //   claim.claim_detail.length;
 
   // Format factuality percentage
-  const factualityPercentage = Math.round(averageFactuality * 100);
+  const factualityPercentage = Math.round(claim.summary.factuality * 100);
 
   // Determine status based on factuality
   let statusClass =
     "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400";
   let statusText = "Verified";
 
-  if (averageFactuality < 0.7) {
+  if (factualityPercentage < 0.7) {
     statusClass =
       "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400";
     statusText = "Refuted";
-  } else if (averageFactuality < 0.9) {
+  } else if (factualityPercentage < 0.9) {
     statusClass =
       "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400";
     statusText = "Partially Verified";

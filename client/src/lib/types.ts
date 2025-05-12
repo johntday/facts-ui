@@ -18,7 +18,7 @@ export type ClaimEvidence = {
   text: string;
   url: string;
   reasoning: string;
-  relationship: "SUPPORTS" | "REFUTES" | "IRRELEVANT";
+  relationship: 'SUPPORTS' | 'REFUTES' | 'IRRELEVANT';
 };
 
 export type ClaimDetail = {
@@ -40,4 +40,15 @@ export type ClaimVerificationData = {
   token_count: number;
   usage: ClaimUsage;
   claim_detail: ClaimDetail[];
+  summary: ClaimSummary;
 };
+
+export type ClaimSummary = {
+  num_claims: number;
+  num_checkworthy_claims: number;
+  num_verified_claims: number;
+  num_supported_claims: number;
+  num_refuted_claims: number;
+  num_controversial_claims: number;
+  factuality: number;
+}
