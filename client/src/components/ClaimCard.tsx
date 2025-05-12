@@ -6,15 +6,10 @@ interface ClaimCardProps {
 }
 
 export default function ClaimCard({ claim }: ClaimCardProps) {
-  // Calculate factuality percentage with safety checks
-  const factuality =
-    claim.summary?.factuality ??
-    (claim.claim_detail.length > 0
-      ? claim.claim_detail.reduce((acc, detail) => acc + detail.factuality, 0) /
-        claim.claim_detail.length
-      : 0);
-
-  const factualityPercentage = Math.round((factuality || 0) * 100);
+  // Always use summary.factuality for the percentage
+  const factualityPercentage = Math.round(
+    (claim.summary?.factuality || 0) * 100
+  );
 
   // Determine status based on factuality
   let statusClass =

@@ -7,50 +7,14 @@ import { ClaimSummary, ClaimVerificationData } from "./types";
  * To be used internally by data fetching functions
  */
 function generateClaimSummary(claimData: ClaimVerificationData): ClaimSummary {
-  const claimDetails = claimData.claim_detail;
-
-  // Count different types of claims
-  const numClaims = claimDetails.length;
-  const numCheckworthyClaims = claimDetails.filter(
-    (claim) => claim.checkworthy
-  ).length;
-
-  // Count verified, supported, refuted claims
-  const numVerifiedClaims = claimDetails.filter(
-    (claim) => claim.factuality >= 0.8
-  ).length;
-  const numSupportedClaims = claimDetails.filter(
-    (claim) =>
-      claim.evidences.filter((evidence) => evidence.relationship === "SUPPORTS")
-        .length >
-      claim.evidences.filter((evidence) => evidence.relationship === "REFUTES")
-        .length
-  ).length;
-  const numRefutedClaims = claimDetails.filter(
-    (claim) =>
-      claim.evidences.filter((evidence) => evidence.relationship === "REFUTES")
-        .length >
-      claim.evidences.filter((evidence) => evidence.relationship === "SUPPORTS")
-        .length
-  ).length;
-  const numControversialClaims =
-    numClaims - numSupportedClaims - numRefutedClaims;
-
-  // Calculate overall factuality
-  const factuality =
-    numClaims > 0
-      ? claimDetails.reduce((sum, claim) => sum + claim.factuality, 0) /
-        numClaims
-      : 0;
-
   return {
-    num_claims: numClaims,
-    num_checkworthy_claims: numCheckworthyClaims,
-    num_verified_claims: numVerifiedClaims,
-    num_supported_claims: numSupportedClaims,
-    num_refuted_claims: numRefutedClaims,
-    num_controversial_claims: numControversialClaims,
-    factuality,
+    num_claims: claimData.summary.num_claims,
+    num_checkworthy_claims: claimData.summary.num_checkworthy_claims,
+    num_verified_claims: claimData.summary.num_verified_claims,
+    num_supported_claims: claimData.summary.num_supported_claims,
+    num_refuted_claims: claimData.summary.num_refuted_claims,
+    num_controversial_claims: claimData.summary.num_controversial_claims,
+    factuality: claimData.summary.factuality,
   };
 }
 
